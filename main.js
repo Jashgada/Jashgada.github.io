@@ -1215,7 +1215,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "container"], [1, "row", "justify-content-md-center"], [1, "social-media", "ml-5"], ["href", "https://www.facebook.com/Gable-Allgood-2021-111333557660106", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Facebook_svg_5282541.png", "alt", ""], [1, "social-media"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/icons8-tiktok-512.png", "alt", ""], ["href", "https://instagram.com/gableallgood2021?igshid=3iad8ha2zfvg", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Instagram_svg_5282544.png", "alt", ""], ["href", "https://twitter.com/gableallgood?s=21", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Twitter5_svg_5282551.png", "alt", ""]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 15, vars: 0, consts: [[1, "container"], [1, "row", "justify-content-md-center"], [1, "social-media", "ml-5"], ["href", "https://www.facebook.com/Gable-Allgood-2021-111333557660106", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Facebook_svg_5282541.png", "alt", ""], [1, "social-media"], ["href", "https://m.tiktok.com/h5/share/usr/6924444045612336133.html?_d=secCgYIASAHKAESMgowr7eYe8o%2Fa59WGh0WGqbNUCMZlCdhcUTB0nG3XrwUmPONMyZm5kGbrdugYV2iav2sGgA%3D&language=en&sec_uid=MS4wLjABAAAAcSptYcavFzQFd8GLtgLh1LPveOqpJkiUYLScXUrc2-ayABvaBtz61rS1m-DrmTyn&sec_user_id=MS4wLjABAAAAcSptYcavFzQFd8GLtgLh1LPveOqpJkiUYLScXUrc2-ayABvaBtz61rS1m-DrmTyn&share_author_id=6924444045612336133&share_link_id=15DC61E3-686E-4FD6-A167-311A1F525373&tt_from=copy&u_code=dgm91b9kb8i3ea&user_id=6924444045612336133&utm_campaign=client_share&utm_medium=ios&utm_source=copy", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/icons8-tiktok-512.png", "alt", ""], ["href", "https://instagram.com/gableallgood2021?igshid=3iad8ha2zfvg", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Instagram_svg_5282544.png", "alt", ""], ["href", "https://twitter.com/gableallgood?s=21", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Twitter5_svg_5282551.png", "alt", ""]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -1225,16 +1225,18 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "img", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 11);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
