@@ -842,10 +842,6 @@ const SUPPORT = [
         address: "../../assets/testimonials/70.png"
     },
     {
-        id: 71,
-        address: "../../assets/testimonials/71.png"
-    },
-    {
         id: 72,
         address: "../../assets/testimonials/72.png"
     },
@@ -1007,24 +1003,26 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
-/* harmony import */ var _meet_meet_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./meet/meet.component */ "dEjQ");
-/* harmony import */ var _platform_platform_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./platform/platform.component */ "lDaF");
-/* harmony import */ var _team_team_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./team/team.component */ "mGeP");
-/* harmony import */ var _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./campus-support/campus-support.component */ "PhBf");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
-/* harmony import */ var _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./platform/collapsible-well.component */ "oqwT");
-/* harmony import */ var _platform_platform_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./platform/platform.service */ "B15d");
-/* harmony import */ var _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./platform/platform-list.component */ "rPbr");
-/* harmony import */ var _team_teams_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./team/teams.service */ "ngQW");
-/* harmony import */ var _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./campus-support/campus-support.service */ "Ku9T");
-/* harmony import */ var _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./platform/platform-icons/platform-icons.component */ "72M+");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
-/* harmony import */ var _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./submit-ideas/submit-ideas.component */ "7rov");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser/animations */ "R1ws");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
+/* harmony import */ var _meet_meet_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./meet/meet.component */ "dEjQ");
+/* harmony import */ var _platform_platform_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./platform/platform.component */ "lDaF");
+/* harmony import */ var _team_team_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./team/team.component */ "mGeP");
+/* harmony import */ var _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./campus-support/campus-support.component */ "PhBf");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
+/* harmony import */ var _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./platform/collapsible-well.component */ "oqwT");
+/* harmony import */ var _platform_platform_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./platform/platform.service */ "B15d");
+/* harmony import */ var _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./platform/platform-list.component */ "rPbr");
+/* harmony import */ var _team_teams_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./team/teams.service */ "ngQW");
+/* harmony import */ var _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./campus-support/campus-support.service */ "Ku9T");
+/* harmony import */ var _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./platform/platform-icons/platform-icons.component */ "72M+");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
+/* harmony import */ var _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./submit-ideas/submit-ideas.component */ "7rov");
+
 
 
 
@@ -1047,58 +1045,61 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [
-        _platform_platform_service__WEBPACK_IMPORTED_MODULE_12__["PlatformService"],
-        _team_teams_service__WEBPACK_IMPORTED_MODULE_14__["TeamsService"],
-        _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_15__["SupportService"]
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [
+        _platform_platform_service__WEBPACK_IMPORTED_MODULE_13__["PlatformService"],
+        _team_teams_service__WEBPACK_IMPORTED_MODULE_15__["TeamsService"],
+        _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_16__["SupportService"]
     ], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"]
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-        _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavBarComponent"],
-        _meet_meet_component__WEBPACK_IMPORTED_MODULE_6__["MeetComponent"],
-        _platform_platform_component__WEBPACK_IMPORTED_MODULE_7__["PlatformComponent"],
-        _team_team_component__WEBPACK_IMPORTED_MODULE_8__["TeamComponent"],
-        _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_9__["CampusSupportComponent"],
-        _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
-        _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_11__["CollapsibleWellComponent"],
-        _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_13__["PlatformListComponent"],
-        _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_16__["PlatformIconsComponent"],
-        _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
-        _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_18__["SubmitIdeasComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-        _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"]] }); })();
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+        _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"],
+        _meet_meet_component__WEBPACK_IMPORTED_MODULE_7__["MeetComponent"],
+        _platform_platform_component__WEBPACK_IMPORTED_MODULE_8__["PlatformComponent"],
+        _team_team_component__WEBPACK_IMPORTED_MODULE_9__["TeamComponent"],
+        _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_10__["CampusSupportComponent"],
+        _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
+        _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_12__["CollapsibleWellComponent"],
+        _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_14__["PlatformListComponent"],
+        _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_17__["PlatformIconsComponent"],
+        _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"],
+        _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_19__["SubmitIdeasComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
+        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](AppModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                    _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavBarComponent"],
-                    _meet_meet_component__WEBPACK_IMPORTED_MODULE_6__["MeetComponent"],
-                    _platform_platform_component__WEBPACK_IMPORTED_MODULE_7__["PlatformComponent"],
-                    _team_team_component__WEBPACK_IMPORTED_MODULE_8__["TeamComponent"],
-                    _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_9__["CampusSupportComponent"],
-                    _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
-                    _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_11__["CollapsibleWellComponent"],
-                    _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_13__["PlatformListComponent"],
-                    _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_16__["PlatformIconsComponent"],
-                    _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
-                    _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_18__["SubmitIdeasComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                    _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"],
+                    _meet_meet_component__WEBPACK_IMPORTED_MODULE_7__["MeetComponent"],
+                    _platform_platform_component__WEBPACK_IMPORTED_MODULE_8__["PlatformComponent"],
+                    _team_team_component__WEBPACK_IMPORTED_MODULE_9__["TeamComponent"],
+                    _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_10__["CampusSupportComponent"],
+                    _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
+                    _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_12__["CollapsibleWellComponent"],
+                    _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_14__["PlatformListComponent"],
+                    _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_17__["PlatformIconsComponent"],
+                    _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"],
+                    _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_19__["SubmitIdeasComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                    _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
-                    _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"]
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+                    _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
+                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]
                 ],
                 providers: [
-                    _platform_platform_service__WEBPACK_IMPORTED_MODULE_12__["PlatformService"],
-                    _team_teams_service__WEBPACK_IMPORTED_MODULE_14__["TeamsService"],
-                    _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_15__["SupportService"]
+                    _platform_platform_service__WEBPACK_IMPORTED_MODULE_13__["PlatformService"],
+                    _team_teams_service__WEBPACK_IMPORTED_MODULE_15__["TeamsService"],
+                    _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_16__["SupportService"]
                 ],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
             }]
     }], null, null); })();
 
