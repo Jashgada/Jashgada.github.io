@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\jashg\OneDrive - University of Cincinnati\A College\Semester V\smithermanmartinez\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! C:\Users\jashg\OneDrive - University of Cincinnati\A College\Semester VI\GableAllGood\gableallgood\gableallgood\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -37,7 +37,7 @@ class NavBarComponent {
     }
 }
 NavBarComponent.ɵfac = function NavBarComponent_Factory(t) { return new (t || NavBarComponent)(); };
-NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavBarComponent, selectors: [["app-nav-bar"]], decls: 21, vars: 2, consts: [[1, "navbar", "navbar-expand-lg", "sticky-top"], ["routerLink", "/", 1, "navbar-brand", "logo"], ["src", "../../assets/logo/SecondarySlogan_Opt2.png", "height", "100", "width", "100"], ["type", "button", "aria-controls", "navbarToggler", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler", 3, "click"], ["role", "button", 1, ""], ["aria-hidden", "true", 1, "fa", "fa-bars", 2, "color", "#bb0f55"], ["id", "navbarToggler", 1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "navbar-nav", "ml-auto", "mt-2", "mt-lg-0"], [1, "nav-item", "ml-5"], ["routerLink", "/meet", "routerLinkActive", "active", 1, "nav-link"], ["routerLink", "/platform", "routerLinkActive", "active", 1, "nav-link"], ["routerLink", "/campus-support", "routerLinkActive", "active", 1, "nav-link"], [1, "nav-item", "ml-5", "mr-5"], ["type", "button", 1, "btn", "btn-primary", "text-light", "btn-sm", "vote-now"], ["href", "https://campuslink.uc.edu/submitter/election/step/1?SubmissionId=44120187", "target", "_blank", "routerLinkActive", "active", 1, "nav-link", 2, "color", "white"]], template: function NavBarComponent_Template(rf, ctx) { if (rf & 1) {
+NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavBarComponent, selectors: [["app-nav-bar"]], decls: 23, vars: 2, consts: [[1, "navbar", "navbar-expand-lg", "sticky-top"], ["routerLink", "/", 1, "navbar-brand", "logo"], ["src", "../../assets/logo/SecondarySlogan_Opt2.png", "height", "100", "width", "100"], ["type", "button", "aria-controls", "navbarToggler", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler", 3, "click"], ["role", "button", 1, ""], ["aria-hidden", "true", 1, "fa", "fa-bars", 2, "color", "#bb0f55"], ["id", "navbarToggler", 1, "collapse", "navbar-collapse", 3, "ngbCollapse"], [1, "navbar-nav", "ml-auto", "mt-2", "mt-lg-0"], [1, "nav-item", "ml-5"], ["routerLink", "/meet", "routerLinkActive", "active", 1, "nav-link"], ["routerLink", "/platform", "routerLinkActive", "active", 1, "nav-link"], ["routerLink", "/team", "routerLinkActive", "active", 1, "nav-link"], ["routerLink", "/campus-support", "routerLinkActive", "active", 1, "nav-link"], [1, "nav-item", "ml-5", "mr-5"], ["routerLink", "/ideas", "routerLinkActive", "active", 1, "nav-link"]], template: function NavBarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nav", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "img", 2);
@@ -52,7 +52,7 @@ NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "ul", 7);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "li", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Meet Isaac and Yulia");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Meet April + Taylor");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "li", 8);
@@ -62,14 +62,17 @@ NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "li", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "a", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Campus Support");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, "Our Team");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "button", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "a", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "Go Vote!");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Campus Support");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Submit Your Ideas!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -80,7 +83,7 @@ NavBarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵattribute"]("aria-expanded", !ctx.isCollapsed);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngbCollapse", ctx.isCollapsed);
-    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbNavbar"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbCollapse"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"]], styles: [".navbar[_ngcontent-%COMP%]{\r\n    background-color: #F2f2f0;\r\n    font-family: 'Compact Light';\r\n    border-bottom:5px solid #2072AA;\r\n}\r\n\r\n.navbar[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n    font-size: 1.5em;\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 300;\r\n\r\n}\r\n\r\n.navbar-nav[_ngcontent-%COMP%]   .nav-item[_ngcontent-%COMP%]   .nav-link[_ngcontent-%COMP%] {\r\n    color: black;\r\n}\r\n\r\n.navbar-nav[_ngcontent-%COMP%]   .nav-item[_ngcontent-%COMP%]   .nav-link.active[_ngcontent-%COMP%]{\r\n    color:#2072AA;\r\n}\r\n\r\n.navbar-nav[_ngcontent-%COMP%]   .nav-item[_ngcontent-%COMP%]:hover   .nav-link[_ngcontent-%COMP%] {\r\n    color: #2072AA;\r\n}\r\n\r\n.navbar-brand[_ngcontent-%COMP%]{\r\n    line-height: 5px;\r\n\r\n    color: #26517C;\r\n    font-weight: 800;\r\n}\r\n\r\n#subext[_ngcontent-%COMP%]{\r\n    font-size: large;\r\n    color: #26517C;\r\n\r\n}\r\n\r\n#subtext[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{\r\n\r\n    color: #26517C;\r\n    -webkit-text-fill-color:white;\r\n\r\n}\r\n\r\n#subtext[_ngcontent-%COMP%]:hover{\r\n    color: #26517C;\r\n    -webkit-text-fill-color:#26517C;\r\n}\r\n\r\n.maintext[_ngcontent-%COMP%]{\r\n    color: #26517C;\r\n}\r\n\r\n.logo[_ngcontent-%COMP%]:hover   img[_ngcontent-%COMP%]{\r\n    src: url('Site_logo_fill.png');\r\n}\r\n\r\nnav-item[_ngcontent-%COMP%]   .btn[_ngcontent-%COMP%]{\r\n    color: F2f2f0 !important;\r\n\r\n}\r\n\r\n.btn[_ngcontent-%COMP%]:focus, .btn[_ngcontent-%COMP%]:active:focus, .btn.active[_ngcontent-%COMP%]:focus {\r\n   color: F2f2f0;\r\n   background-color: #26517C;\r\n}\r\n\r\n.btn-primary[_ngcontent-%COMP%], .btn-primary[_ngcontent-%COMP%]:hover, .btn-primary[_ngcontent-%COMP%]:active, .btn-primary[_ngcontent-%COMP%]:visited, .btn-primart[_ngcontent-%COMP%]:focus {\r\n    background-color: #26517C;\r\n    color: F2f2f0 !important;\r\n    border: F2f2f0;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi1iYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7SUFDSSx5QkFBeUI7SUFDekIsNEJBQTRCO0lBQzVCLCtCQUErQjtBQUNuQzs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixxQ0FBcUM7SUFDckMsZ0JBQWdCOztBQUVwQjs7QUFFQTtJQUNJLFlBQVk7QUFDaEI7O0FBQ0E7SUFDSSxhQUFhO0FBQ2pCOztBQUNBO0lBQ0ksY0FBYztBQUNsQjs7QUFHQTtJQUNJLGdCQUFnQjs7SUFFaEIsY0FBYztJQUNkLGdCQUFnQjtBQUNwQjs7QUFHQTtJQUNJLGdCQUFnQjtJQUNoQixjQUFjOztBQUVsQjs7QUFFQTs7SUFFSSxjQUFjO0lBQ2QsNkJBQTZCOztBQUVqQzs7QUFFQTtJQUNJLGNBQWM7SUFDZCwrQkFBK0I7QUFDbkM7O0FBR0E7SUFDSSxjQUFjO0FBQ2xCOztBQUdBO0lBQ0ksOEJBQWdEO0FBQ3BEOztBQUVBO0lBQ0ksd0JBQXdCOztBQUU1Qjs7QUFFQTtHQUNHLGFBQWE7R0FDYix5QkFBeUI7QUFDNUI7O0FBRUE7SUFDSSx5QkFBeUI7SUFDekIsd0JBQXdCO0lBQ3hCLGNBQWM7QUFDbEIiLCJmaWxlIjoibmF2LWJhci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbi5uYXZiYXJ7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjRjJmMmYwO1xyXG4gICAgZm9udC1mYW1pbHk6ICdDb21wYWN0IExpZ2h0JztcclxuICAgIGJvcmRlci1ib3R0b206NXB4IHNvbGlkICMyMDcyQUE7XHJcbn1cclxuXHJcbi5uYXZiYXIgYXtcclxuICAgIGZvbnQtc2l6ZTogMS41ZW07XHJcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxuXHJcbn1cclxuXHJcbi5uYXZiYXItbmF2IC5uYXYtaXRlbSAubmF2LWxpbmsge1xyXG4gICAgY29sb3I6IGJsYWNrO1xyXG59XHJcbi5uYXZiYXItbmF2IC5uYXYtaXRlbSAubmF2LWxpbmsuYWN0aXZle1xyXG4gICAgY29sb3I6IzIwNzJBQTtcclxufVxyXG4ubmF2YmFyLW5hdiAubmF2LWl0ZW06aG92ZXIgLm5hdi1saW5rIHtcclxuICAgIGNvbG9yOiAjMjA3MkFBO1xyXG59XHJcblxyXG5cclxuLm5hdmJhci1icmFuZHtcclxuICAgIGxpbmUtaGVpZ2h0OiA1cHg7XHJcblxyXG4gICAgY29sb3I6ICMyNjUxN0M7XHJcbiAgICBmb250LXdlaWdodDogODAwO1xyXG59XHJcblxyXG5cclxuI3N1YmV4dHtcclxuICAgIGZvbnQtc2l6ZTogbGFyZ2U7XHJcbiAgICBjb2xvcjogIzI2NTE3QztcclxuXHJcbn1cclxuXHJcbiNzdWJ0ZXh0IHNwYW57XHJcblxyXG4gICAgY29sb3I6ICMyNjUxN0M7XHJcbiAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjp3aGl0ZTtcclxuXHJcbn1cclxuXHJcbiNzdWJ0ZXh0OmhvdmVye1xyXG4gICAgY29sb3I6ICMyNjUxN0M7XHJcbiAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjojMjY1MTdDO1xyXG59XHJcblxyXG5cclxuLm1haW50ZXh0e1xyXG4gICAgY29sb3I6ICMyNjUxN0M7XHJcbn1cclxuXHJcblxyXG4ubG9nbzpob3ZlciBpbWd7XHJcbiAgICBzcmM6IHVybCgnLi4vLi4vYXNzZXRzL2xvZ28vU2l0ZV9sb2dvX2ZpbGwucG5nJyk7XHJcbn1cclxuXHJcbm5hdi1pdGVtIC5idG57XHJcbiAgICBjb2xvcjogRjJmMmYwICFpbXBvcnRhbnQ7XHJcblxyXG59XHJcblxyXG4uYnRuOmZvY3VzLCAuYnRuOmFjdGl2ZTpmb2N1cywgLmJ0bi5hY3RpdmU6Zm9jdXMge1xyXG4gICBjb2xvcjogRjJmMmYwO1xyXG4gICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjY1MTdDO1xyXG59XHJcblxyXG4uYnRuLXByaW1hcnksIC5idG4tcHJpbWFyeTpob3ZlciwgLmJ0bi1wcmltYXJ5OmFjdGl2ZSwgLmJ0bi1wcmltYXJ5OnZpc2l0ZWQsIC5idG4tcHJpbWFydDpmb2N1cyB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjY1MTdDO1xyXG4gICAgY29sb3I6IEYyZjJmMCAhaW1wb3J0YW50O1xyXG4gICAgYm9yZGVyOiBGMmYyZjA7XHJcbn1cclxuXHJcblxyXG4iXX0= */"] });
+    } }, directives: [_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbNavbar"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbCollapse"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkActive"]], styles: [".navbar[_ngcontent-%COMP%]{\r\n    background-color: white;\r\n    font-family: 'Compact Light';\r\n    border-bottom:5px solid #bb0f55;\r\n}\r\n\r\n.navbar[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]{\r\n    font-size: 1.5em;\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 300;\r\n    \r\n}\r\n\r\n.navbar-nav[_ngcontent-%COMP%]   .nav-item[_ngcontent-%COMP%]   .nav-link[_ngcontent-%COMP%] {\r\n    color: black;\r\n}\r\n\r\n.navbar-nav[_ngcontent-%COMP%]   .nav-item[_ngcontent-%COMP%]   .nav-link.active[_ngcontent-%COMP%]{\r\n    color:#bb0f55;\r\n}\r\n\r\n.navbar-nav[_ngcontent-%COMP%]   .nav-item[_ngcontent-%COMP%]:hover   .nav-link[_ngcontent-%COMP%] {\r\n    color: #bb0f55;\r\n}\r\n\r\n.navbar-brand[_ngcontent-%COMP%]{\r\n    line-height: 5px;\r\n    \r\n    color: #591937;\r\n    font-weight: 800;\r\n}\r\n\r\n#subext[_ngcontent-%COMP%]{\r\n    font-size: large;\r\n    color: #591937;\r\n    \r\n}\r\n\r\n#subtext[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{\r\n    \r\n    color: #591937;\r\n    -webkit-text-fill-color:white;\r\n    \r\n}\r\n\r\n#subtext[_ngcontent-%COMP%]:hover{\r\n    color: #591937;\r\n    -webkit-text-fill-color:#591937;\r\n}\r\n\r\n.maintext[_ngcontent-%COMP%]{\r\n    color: #591937;\r\n}\r\n\r\n.logo[_ngcontent-%COMP%]:hover   img[_ngcontent-%COMP%]{\r\n    src: url('Site_logo_fill.png');\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5hdi1iYXIuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7SUFDSSx1QkFBdUI7SUFDdkIsNEJBQTRCO0lBQzVCLCtCQUErQjtBQUNuQzs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixpQ0FBaUM7SUFDakMsZ0JBQWdCOztBQUVwQjs7QUFFQTtJQUNJLFlBQVk7QUFDaEI7O0FBQ0E7SUFDSSxhQUFhO0FBQ2pCOztBQUNBO0lBQ0ksY0FBYztBQUNsQjs7QUFHQTtJQUNJLGdCQUFnQjs7SUFFaEIsY0FBYztJQUNkLGdCQUFnQjtBQUNwQjs7QUFHQTtJQUNJLGdCQUFnQjtJQUNoQixjQUFjOztBQUVsQjs7QUFFQTs7SUFFSSxjQUFjO0lBQ2QsNkJBQTZCOztBQUVqQzs7QUFFQTtJQUNJLGNBQWM7SUFDZCwrQkFBK0I7QUFDbkM7O0FBR0E7SUFDSSxjQUFjO0FBQ2xCOztBQUdBO0lBQ0ksOEJBQWdEO0FBQ3BEIiwiZmlsZSI6Im5hdi1iYXIuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxyXG4ubmF2YmFye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBmb250LWZhbWlseTogJ0NvbXBhY3QgTGlnaHQnO1xyXG4gICAgYm9yZGVyLWJvdHRvbTo1cHggc29saWQgI2JiMGY1NTtcclxufVxyXG5cclxuLm5hdmJhciBhe1xyXG4gICAgZm9udC1zaXplOiAxLjVlbTtcclxuICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiAzMDA7XHJcbiAgICBcclxufVxyXG5cclxuLm5hdmJhci1uYXYgLm5hdi1pdGVtIC5uYXYtbGluayB7XHJcbiAgICBjb2xvcjogYmxhY2s7XHJcbn1cclxuLm5hdmJhci1uYXYgLm5hdi1pdGVtIC5uYXYtbGluay5hY3RpdmV7XHJcbiAgICBjb2xvcjojYmIwZjU1O1xyXG59XHJcbi5uYXZiYXItbmF2IC5uYXYtaXRlbTpob3ZlciAubmF2LWxpbmsge1xyXG4gICAgY29sb3I6ICNiYjBmNTU7XHJcbn1cclxuXHJcblxyXG4ubmF2YmFyLWJyYW5ke1xyXG4gICAgbGluZS1oZWlnaHQ6IDVweDtcclxuICAgIFxyXG4gICAgY29sb3I6ICM1OTE5Mzc7XHJcbiAgICBmb250LXdlaWdodDogODAwO1xyXG59XHJcblxyXG5cclxuI3N1YmV4dHtcclxuICAgIGZvbnQtc2l6ZTogbGFyZ2U7XHJcbiAgICBjb2xvcjogIzU5MTkzNztcclxuICAgIFxyXG59XHJcblxyXG4jc3VidGV4dCBzcGFue1xyXG4gICAgXHJcbiAgICBjb2xvcjogIzU5MTkzNztcclxuICAgIC13ZWJraXQtdGV4dC1maWxsLWNvbG9yOndoaXRlO1xyXG4gICAgXHJcbn1cclxuXHJcbiNzdWJ0ZXh0OmhvdmVye1xyXG4gICAgY29sb3I6ICM1OTE5Mzc7XHJcbiAgICAtd2Via2l0LXRleHQtZmlsbC1jb2xvcjojNTkxOTM3O1xyXG59XHJcblxyXG5cclxuLm1haW50ZXh0e1xyXG4gICAgY29sb3I6ICM1OTE5Mzc7XHJcbn1cclxuXHJcblxyXG4ubG9nbzpob3ZlciBpbWd7XHJcbiAgICBzcmM6IHVybCgnLi4vLi4vYXNzZXRzL2xvZ28vU2l0ZV9sb2dvX2ZpbGwucG5nJyk7XHJcbn1cclxuXHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NavBarComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -136,7 +139,7 @@ function PlatformIconsComponent_div_21_p_4_Template(rf, ctx) { if (rf & 1) {
 function PlatformIconsComponent_div_21_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 1);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h4");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Commitments");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "You!");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 8);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, PlatformIconsComponent_div_21_p_4_Template, 2, 0, "p", 3);
@@ -152,32 +155,32 @@ class PlatformIconsComponent {
     }
 }
 PlatformIconsComponent.ɵfac = function PlatformIconsComponent_Factory(t) { return new (t || PlatformIconsComponent)(); };
-PlatformIconsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlatformIconsComponent, selectors: [["platform-icons"]], inputs: { description: "description", lastPlat: "lastPlat" }, decls: 22, vars: 5, consts: [[1, "platform-icons", "mt-2"], [1, "box1"], ["src", "../../assets/Platform/ucinfra.png", "height", "200px", "width", "200px", "alt", ""], [4, "ngIf"], ["src", "../../assets/Platform/ei.png", "height", "200px", "width", "200px", "alt", ""], ["src", "../../assets/Platform/comm-eng.png", "height", "200px", "width", "200px", "alt", ""], ["src", "../../assets/Platform/sg-reforms.png", "height", "200px", "width", "200px", "alt", ""], ["class", "box1 ", 4, "ngIf"], ["src", "../../assets/Platform/commitments.png", "height", "200px", "width", "200px", "alt", ""]], template: function PlatformIconsComponent_Template(rf, ctx) { if (rf & 1) {
+PlatformIconsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlatformIconsComponent, selectors: [["platform-icons"]], inputs: { description: "description", lastPlat: "lastPlat" }, decls: 22, vars: 5, consts: [[1, "platform-icons", "mt-2"], [1, "box1"], ["src", "../../assets/Platform/CampusEx.png", "height", "200px", "width", "200px", "alt", ""], [4, "ngIf"], ["src", "../../assets/Platform/Action.png", "height", "200px", "width", "200px", "alt", ""], ["src", "../../assets/Platform/Sustainability.png", "height", "200px", "width", "200px", "alt", ""], ["src", "../../assets/Platform/OhVarsity.png", "height", "200px", "width", "200px", "alt", ""], ["class", "box1 ", 4, "ngIf"], ["src", "../../assets/Platform/Submit.png", "height", "200px", "width", "200px", "alt", ""]], template: function PlatformIconsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "UC Infrastructure");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Campus Experience");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "img", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, PlatformIconsComponent_p_5_Template, 2, 0, "p", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Equity and Inclusion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Action");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "img", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, PlatformIconsComponent_p_10_Template, 2, 0, "p", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Comm Engagement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Sustainability");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, PlatformIconsComponent_p_15_Template, 2, 0, "p", 3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "h4");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "SG Reforms");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, "Oh, Varsity");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, PlatformIconsComponent_p_20_Template, 2, 0, "p", 3);
@@ -274,23 +277,28 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 9, vars: 2, consts: [["src", "../../assets/Candidates/banner-min.jpeg", 1, "img-fluid"], [1, "mt-3"], [1, "p-2", 2, "text-align", "center"], ["id", "line-strip"], [3, "description", "lastPlat"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["ng-component"]], decls: 13, vars: 2, consts: [["src", "../../assets/Candidates/banner-min.png", 1, "img-fluid"], [1, "mt-3"], [1, "p-2", 2, "text-align", "center"], ["id", "line-strip"], [3, "description", "lastPlat"], ["src", "https://player.vimeo.com/video/512833122?badge=0&autopause=0&player_id=0&app_id=58479", "width", "100%", "height", "500", "frameborder", "0", "allow", "autoplay; fullscreen; picture-in-picture", "allowfullscreen", "", "title", "Intro Video", 1, "intro-vid"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "img", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "H3", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Heyo Bolder Bearcats! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Hey Bearcats!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Our names are Isaac Smitherman and Yulia Martinez, and we are so excited to be running to be your next Undergraduate Student Government President and Vice President at the University of Cincinnati. We have a vision for a bolder UC and we hope that you can embark on this journey with us in becoming Bolder Bearcats! Check out our platform and follow us on all on our social medias so that you can stay updated on how were going to change our university for the better.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, " Gable + Allgood here! We're very excited to be running to be your next Student Body President + Vice President at the University of Cincinnati! We look forward to every COVID Careful interaction with you over these next couple weeks and can't wait to learn what's most important to you! We hope to share more about our vision and platform and ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "span");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "#TogetherWeWill");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "H1", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "What We Stand For");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " build the movement to help students succeed!\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "platform-icons", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "H1", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "What We Stand For");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "platform-icons", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "iframe", 5);
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("description", false)("lastPlat", true);
-    } }, directives: [_platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_1__["PlatformIconsComponent"]], styles: ["p[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 16pt;\r\n    line-height: 1.2;\r\n}\r\n\r\np[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{\r\n    color: #bb0f55;\r\n}\r\n\r\nH3[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n}\r\n\r\nH1[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n}\r\n\r\n.intro-vid[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n\r\n#line-strip[_ngcontent-%COMP%]{\r\n    height: 0px;\r\n    width: 100%;\r\n    border-bottom: 2px solid #bb0f55;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0dBR0c7O0FBRUg7SUFDSSxxQ0FBcUM7SUFDckMsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7O0FBQ0E7SUFDSSxjQUFjO0FBQ2xCOztBQUNBO0lBQ0kscUNBQXFDO0lBQ3JDLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0kscUNBQXFDO0lBQ3JDLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztJQUNYLGdDQUFnQztBQUNwQyIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBQe1xyXG4gICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxufSAqL1xyXG5cclxucHtcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG4gICAgZm9udC1zaXplOiAxNnB0O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuMjtcclxufVxyXG5wIHNwYW57XHJcbiAgICBjb2xvcjogI2JiMGY1NTtcclxufVxyXG5IM3tcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgZm9udC1zaXplOiAyOHB0O1xyXG59XHJcblxyXG5IMXtcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG59XHJcblxyXG4uaW50cm8tdmlke1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZy10b3A6IDIwcHg7XHJcbn1cclxuXHJcbiNsaW5lLXN0cmlwe1xyXG4gICAgaGVpZ2h0OiAwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjYmIwZjU1O1xyXG59XHJcbiJdfQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("description", true)("lastPlat", false);
+    } }, directives: [_platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_1__["PlatformIconsComponent"]], styles: ["p[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 16pt;\r\n    line-height: 1.2;\r\n}\r\n\r\np[_ngcontent-%COMP%]   span[_ngcontent-%COMP%]{\r\n    color: #bb0f55;\r\n}\r\n\r\nH3[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n}\r\n\r\nH1[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n}\r\n\r\n.intro-vid[_ngcontent-%COMP%]{\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n\r\n#line-strip[_ngcontent-%COMP%]{\r\n    height: 0px;\r\n    width: 100%;\r\n    border-bottom: 2px solid #bb0f55;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhvbWUuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTs7O0dBR0c7O0FBRUg7SUFDSSxpQ0FBaUM7SUFDakMsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7O0FBQ0E7SUFDSSxjQUFjO0FBQ2xCOztBQUNBO0lBQ0ksaUNBQWlDO0lBQ2pDLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksaUNBQWlDO0lBQ2pDLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixpQkFBaUI7QUFDckI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsV0FBVztJQUNYLGdDQUFnQztBQUNwQyIsImZpbGUiOiJob21lLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBQe1xyXG4gICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxufSAqL1xyXG5cclxucHtcclxuICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiAzMDA7XHJcbiAgICBmb250LXNpemU6IDE2cHQ7XHJcbiAgICBsaW5lLWhlaWdodDogMS4yO1xyXG59XHJcbnAgc3BhbntcclxuICAgIGNvbG9yOiAjYmIwZjU1O1xyXG59XHJcbkgze1xyXG4gICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIGZvbnQtc2l6ZTogMjhwdDtcclxufVxyXG5cclxuSDF7XHJcbiAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG59XHJcblxyXG4uaW50cm8tdmlke1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgcGFkZGluZy10b3A6IDIwcHg7XHJcbn1cclxuXHJcbiNsaW5lLXN0cmlwe1xyXG4gICAgaGVpZ2h0OiAwcHg7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGJvcmRlci1ib3R0b206IDJweCBzb2xpZCAjYmIwZjU1O1xyXG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](HomeComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -385,412 +393,141 @@ PlatformService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
     }], null, null); })();
 const CAMPUSEXP = [
     {
-        name: "Sustainability ",
-        info: `i. Solar Panel Charging Stations
-        Collaborating with student engineering organizations, 1819 Hub,
-        and P+D+C, we plan to prototype Solar Panel Charging stations
-        that can be placed in Sigma Sigma Commons to charge devices,
-        power wifi boosters, and allow students to work outside with ease.
-        Using 75W solar panels, lithium batteries, and the ingenuity of UC
-        students, we can create charging stations that will power phones,
-        laptops, and wifi boosters.
-        `,
-        impact: `ii. Gas Free UC
-        As we continue to address issues related to climate change and
-        transition to a more sustainable future, it is essential that UC
-        creates a plan to transition away from the use of fossil fuels on
-        campus. By purchasing electrical landscaping equipment,
-        induction stoves, and investing in sustainable heating systems in
-        newly constructed buildings, UC can take another step in being a
-        leader in the green future.`,
-        plan: '',
+        name: "Career Studio Interview Booths",
+        info: `Due to the COVID-19 Pandemic, more interviews are becoming virtual and there is a growing need for a space on campus where students can find quiet, an appropriate background, and good lighting. Through the addition of reservable interview booths, students can feel confident, prepared, and present during their interviews!`,
+        impact: "This opportunity will be available to all members of the Bearcat Community. Reservations will be able to be made through the Bearcat Promise Career Studio similar to the Professional Headshot Booth.",
+        plan: "While directly working with the staff at the Bearcat Promise Studio, we will create a request template where students can register for a time to use the space. In addition, we plan to collect student feedback through a response form receipt after the reservation is completed to continuously work to make a comfortable space to foster success. ",
         color: "cherry"
     },
     {
-        name: "Transportation ",
-        info: ` i. UC Rides
-      We plan to re-engage Cincinnati METRO and develop a plan to
-      provide free rides for all UC students. Every UC student deserves
-      access to reliable and affordable transportation that will help
-      reduce traffic in Clifton, provide connections to the greater
-      Cincinnati area, as well as save students time, money, and stress
-      while attending the University of Cincinnati.
-      `,
-        impact: `ii. Better Bus Stops
-      In tandem with providing UC students free METRO rides, it is
-      essential that UC students have access to better bus stops. We
-      plan to work with METRO to expand routes to service short-vine,
-      ensure that all bus stops within a mile radius of UC have a bench,
-      and remove anti-homeless infrastructure from every bus stop in
-      the Clifton community.
-      `,
-        plan: '',
+        name: "Steger Student Center Office Markings",
+        info: "Add office directories to the Steger Student Life Center for improved access and ability to locate varying resources, centers, and offices for student growth.",
+        impact: "This initiative will impact all students on campus, but most notably students harboring marginalized identities and that are seeking support during their time at UC.",
+        plan: "It is important that students of all identities feel supported on this campus, and our various identity based centers are pivotal in uplifting this part of the student experience. In order for students to connect with these identity based centers, they must be able to easily locate these centers when they are strolling through campus. By adding more signage and floor directories, we hope to remind students that these offices are readily available to support them however they need while also expanding the reach of the groups listed. ",
         color: "cherry"
     },
     {
-        name: "Accessibility ",
-        info: `i. Wheelchair Stations
-        In collaboration with the Office of Accessibility, we plan to
-        implement electric wheelchair stations accessible to any student
-        with a disability or injury to use while traveling to and from classes.
-        Taking away stress from students about how they will traverse
-        across our campus while experiencing chronic illnesses and
-        damages will be an essential step to ensuring thatour campus is
-        accessible for all.
-        `,
-        impact: `ii. Improved Walking Paths
-        Due to several locations that we have identified in the Clifton
-        community, such as the intersection of Warner and Wheeler, we
-        plan to collaborate with city officials to increase signage and
-        crosswalks throughout the Clifton community. Additionally, we plan
-        to work with the UC community to identify areas in the surrounding
-        neighborhood where lighting can be improved for safer walks
-        home.
-        `,
-        plan: `iii. Tampon Task Force
-        Before COVID, the University committed to putting tampon
-        stations in every women's and gender neutral bathroom on
-        campus. We plan to work with the University to re-implement this
-        commitment as well as expand the initiatives to cover all
-        bathrooms on campus. UC students who menstruate deserve
-        easy access to quality menstruation products while on-campus.
-
-        iv. Revamp Lactation Rooms
-        Working with the Women's center and the Office of Equity and
-        Inclusion we plan to clarify who is responsible for managing our
-        lactation rooms on campus as well as looking into ways that we
-        can revamp and modernize the rooms themselves. Currently, like
-        most rooms on campus, UCPD has to be called to gain access to
-        a lactation room. This system is not equitable or accessible, but
-        through the power of technology and innovation we will take the
-        next steps to ensure that all student parents, care-givers, and
-        pregnant individuals feel welcome and supported on our campus.
-
-        v. Collaborating with Bearcats Pantry (BCP) Resource Center
-        We plan to collaborate with P+D+C to establish an on-campus
-        location for the BCP Resource Center in TUC. We plan to work
-        with P+D+C to redesign the upper floor of Stratford building 14 to
-        have the capability to permanently house the BCP Resource
-        Center. We plan to utilize Student Government resources to help
-        expand on the BCP Thanksgiving meal program for students who
-        are experiencing food insecurity or are not able to travel home
-        during the holidays.
-        `,
+        name: "Initiative Pipeline",
+        info: `In order for the Undergraduate Student Government to truly represent all students, it is important to have a visible and accessible avenue for communication.
+        Through the usage of campus screens, including those at branch campuses, SG in collaboration with TUC and MainStreet Operations will create biweekly and monthly reports that will be shared with students to keep them updated with upcoming projects, events, and meetings.`,
+        impact: "As SG is to serve all members of the Bearcat Community, this initiative is aimed to impact both students and staff of the University of Cincinnati. Our goal is to be as transparent and include as many students in efforts to advance the university as possible, in turn offering a platform for all to share their thoughts and hopes.",
+        plan: "Through combined efforts between G+A ,SG Media Directors and Press Secretary, biweekly updates through social media channels and monthly updates will be submitted to TUC and MainStreet Operations Directors to broadcast on screens in TUC, Dining Halls, Residence Halls, both Branch Campuses, and the University Recreation Center. These updates will include: meeting times and locations, upcoming events, applications, board events, and contact information for the SG Instagram and website. ",
         color: "cherry"
     }
 ];
 const ACTION = [
     {
-        name: "Funding Cost Centers ",
-        info: `i. Every year the Student Advisory Committee on the University
-              Budget (SACUB) gives recommendations to the University about
-              allocating the $28 million general fee. Each year our
-              identity-based centers request
-              additional funds to support the programming coming out of
-              their office, but with limited funding resources, these
-              requests often go unfulfilled. We will work with Athletics
-              to develop a plan to begin re-allocating small portions of
-              their $5.5 million general fee allotment as they increase revenue
-              with media contracts, ticket sales, and merchandising profits to fulfill
-              requests from other cost centers on campus.
-
-              ii. What could this fund?
-                1. For EPS
-                    a. The return of Emerging Ethnic Leaders
-                    b. API Programming
-                    c. Latinx Programming
-                2. For AACRC
-                    a. More support for Brother 2 brother
-                    b. More support for Sisters Impacting Sisters
-                    c. Expand Transitions
-                    d. Expand Tyheimba
-                    e. Expand Kuamka
-                3. For LGBTQ+ Center
-                    a. Fund professional development for staff members
-        `,
-        impact: '',
-        plan: '',
+        name: "Less Talk More Action",
+        info: "Our university offers a multitude of offices and identity based centers with the purpose of fostering diversity, equity, and inclusion amongst our student body. Just as student organizations are spotlighted through the Annual Student Organization Fair, we propose a week-long diversity, equity and inclusion conference aimed at bringing more attention to identity-based centers, education, and active, available resources.",
+        impact: "All members of the Bearcat Community - students, staff, and faculty - are welcomed and encouraged to attend, volunteer, and learn throughout this event.",
+        plan: `In order to create this conference, we plan to work alongside parties and offices such as the Office of Ethnic Programs and Services, Bearcat Support Network, and the Office of Equity and Inclusion, as well as identity based centers, such as the Women’s Center, the LGBTQ+ Center, Wellness Center, and the African American Cultural Resource Center to elevate the missions, voices, and resources to all of the student body.
+        This week-long event will include sessions to learn about intersectionality and educate peers on critical information about identities and backgrounds as well as events to celebrate what makes us uniquely us. The event will be conducted in a hybrid format, a combination of hybrid and in-person sessions, held at varying times each day to ensure all students are able to participate around their individual schedules.`,
         color: "yellowish"
     },
     {
-        name: "DE&I Townhall",
-        info: `i. To increase transparency and awareness for DE&I initiatives
-              occurring out our University, we plan to invite faculty, staff,
-              and upper level UC administration to participate in semesterly
-              town halls to address concerns related to hiring and retaining
-              staff as well as resources for students across UC’s campuses.
-        `,
-        impact: '',
-        plan: '',
+        name: "Civil Discourse Training",
+        info: "Undergraduate Student Government will create a shareable civil discourse training to encourage constructive dialogue between Bearcats. This initiative will be completed in correspondence with the SG Governmental Relations Committee in order to develop an additional presentation for student organizations, students, and faculty to request to become Bearcat Civil Discourse Certified similar to Mental Health Champions. ",
+        impact: "All members of the Bearcat community will be positively impacted through the addition of this training to develop their journeys of cultural competency and learn how to effectively engage and address differences. ",
+        plan: "Utilize SG Directors and UC Faculty members like Assistant Dean Carol Tonge Mack, to share the training to all corners of UC to reach different organizations and services on campus. While working with these parties we will encourage organizations to include this training as a part of their new member process and / or as a part of their yearly organization RESET. ",
         color: "yellowish"
     },
     {
-        name: "UC Historian Position",
-        info: `i. To move forward as a University it is essential that we
-              understand our past. As detailed in the McMicken report, we
-              plan to work with the Provost and President’s office to
-              establish an official UC Historian position that will
-              document the very beginnings of our University and all
-              the incidents leading to our current state,
-              good, bad, and ugly.
-        `,
-        impact: '',
-        plan: '',
+        name: "Mental Health Advocacy Week",
+        info: "The student experience is at the priority of our agenda for this campaign, and mental health is undoubtedly one of the most important topics for students across our campus. Advocating and prioritizing the mental health of our students is of the utmost importance and together, Student Government will host a Mental Health Reset Week with campus and community partners to increase awareness of intersectionality and care. ",
+        impact: "Mental health resources are available to all students likewise our Mental Health Reset Week will be open to all interested students to attend and reset.",
+        plan: "In order to craft a Mental Health Advocacy week, we plan to work with campus resources, such as Bearcat Support Network, University of Cincinnati Counseling and Psychological Services, the UC Wellness Center and many community and campus partners to build a comprehensive schedule that educates all on vital topics for self and community growth. We hope that this week provides a chance for students to take a moment away from their class work, extracurriculars, and schedules to learn about the importance of mental health. Adjacent to this event, Student Government will encourage organizations to take a week off from weekly meetings, events, and commitments to pay the time forward to their members. This follows the same format as both UC’s and Ohio State University’s Recess Weeks from Fall 2020 Semester.",
         color: "yellowish"
     },
     {
-        name: "Non-Student Visa Advisor ",
-        info: `i. Currently about 300 of our 4500 International
-              students hold Non-Student visas that complicate processes
-              such as filing taxes and applying for work authorization forms.
-              We plan to work with International Student Services to create
-              an official title for one of their current advisors that would
-              designate them as the expert on Non-Student visas. This would
-              give students a streamlined process to receive assistance,
-              as well as ensure International Student Services are able to
-              reach students who need them the most.
-        `,
-        impact: '',
-        plan: '',
-        color: "yellowish"
-    },
-    {
-        name: "Non-Student Visa Advisor ",
-        info: `i. Currently about 300 of our 4500 International
-            students hold Non-Student visas that complicate processes
-            such as filing taxes and applying for work authorization forms.
-            We plan to work with International Student Services to create
-            an official title for one of their current advisors that would
-            designate them as the expert on Non-Student visas. This would
-            give students a streamlined process to receive assistance,
-            as well as ensure International Student Services are able to
-            reach students who need them the most.
-      `,
-        impact: '',
-        plan: '',
-        color: "yellowish"
-    },
-    {
-        name: "UC Vogues ",
-        info: `i. We plan to collaborate with the AACRC and LGBTQ+
-          Center to create programming that specifically highlights
-          queer POC culture. Everyone loves drag queens,
-          so who wouldn’t love a ball?!
-    `,
-        impact: '',
-        plan: '',
+        name: "Your School, Your Voice Information Request",
+        info: "An addition of virtual form to the Student Government website for students to suggest initiatives, present feedback, and request contact information. ",
+        impact: "This initiative will be open to all students on campus, especially those who are looking to make campus wide change and gather support from fellow students. ",
+        plan: `Our plan is to establish a page on the Student Government Website dedicated to having the student voice heard.  Currently, there is no platform for students within Student Government and for those who are not to provide input on what they would like to see happen on this campus. 
+        On this page, we will create a section for students to (1) suggest initiatives/changes they would like to see, (2) provide feedback on past or ongoing Student Government initiatives, and (3) request contact information of Student Government officials who they would like to reach out to for further collaboration. 
+        Student Government works for you and in order to have the student voice heard, we must establish a platform for students to go to with their suggestions.`,
         color: "yellowish"
     }
 ];
 const SUSTAINABILITY = [
     {
-        name: "Nippert Watch Party ",
-        info: `i. To continue to support our student athletes as well as engage
-              with the Cincinnati community, we plan to host an annual Nippert Watch Party
-              during one of the UC Football away games. We will invite local
-              businesses to serve and sell food, collaborate with the band and athletics
-              to have music and giveaways, and give students a fun and amazing
-              opportunity to cheer on the bearcats!
-    `,
-        impact: '',
-        plan: '',
+        name: "Reusable Dining Sets",
+        info: `Let’s promote sustainable practice while eating on and around campus from day one by creating and dispersing a supply of reusable ware and straws to students.
+        Creating a greener university is a lifelong commitment for this university and by targeting our dining halls on campus, we can work to create sustainable change in our plastic usage.`,
+        impact: "We believe that this initiative would benefit all students, but our main focus would be to support students with on-campus meal plans. Although these items are not limited to only be used on-campus, but can be used anywhere Bearcats roam!",
+        plan: `In order to begin this process, we will partner with UC Food Services and UC Sustainability to identify reusable tupperware and straw options that would be best suited for our students.
+        In addition, SG will work alongside Residential Education and Development (RED) and Housing Services to distribute these items to on-campus residents at the beginning of the Fall 2021 Semester. Additional sets will be available for students to pick up during Welcome Week and early Fall Semester events.`,
         color: "darkmaroon"
     },
     {
-        name: "Return of Ruckus Rewards ",
-        info: `i. We plan to work with Athletics and UC IT
-              to bring back Ruckus Rewards in order to create an
-              incentive system that will increase engagement for
-              our teams that don’t receive their deserved level
-              of attention such as
-              Women’s sports and Esports.
-
-    `,
-        impact: '',
-        plan: '',
+        name: "Everyone Eats - Bearcat Pantry Fuel Fridge",
+        info: `In between classes and need a snack? Or heading home for the night and haven’t gone grocery shopping yet? We get it!
+        Inspired by Cincinnati Local Fridges, SG with support of the Bearcat Food Recovery Network, UC Wellness Center, and Dining Services to add a communal campus fridge for students to take what they need and give what they can.
+        Not only will we work to bridge the gap between food insecurity on campus, but lower food waste.`,
+        impact: `Everyone Eats.
+        The Bearcat Fuel Fridge will be available to all students on UC’s Main Campus, but with greater focus on supporting students who face food insecurity in their daily lives. 
+        On busy days, walking to local food pantries can be difficult. Place in a centrally-located space, the new Wellness Cafe located in the old Steger Starbucks lounge, with nutritional items and allergy friendly foods for students to take advantage of so that they do not have to worry where their next meal will be.
+        `,
+        plan: `In order to establish the Bearcat Fuel Fridge, we establish bonds and communication between Dining Services, Bearcat Food Recovery Network, local businesses, Bearcat Pantry, and UC Wellness Center to obtain items to stock the refrigerator with. 
+        In addition, we plan to have our fellow food safety trained Bearcats and staff members manage and maintain the contents of the fridge during operational hours to ensure allergies, nutrition, best by dates are respected and clearly administered. 
+        In order to serve all Bearcats and know their needs, a QR Code form will be located at the fridge for participants to scan and fill out based upon their experience. I.e. What items students would like to see added, dietary needs, number of items picked up that day, and feedback submission.  
+        `,
         color: "darkmaroon"
     },
     {
-        name: "Book Fair ",
-        info: `i. To continue to engage with the Cincinnati community,
-            we want to connect with local bookstores in the area to
-            start an annual book fair that will allow students to support
-            and learn about local businesses, encourage students to read,
-            and provide a fun event for students to destress and explore all
-            of their unique interests. `,
-        impact: '',
-        plan: '',
+        name: "Career Ready Clothing Drive",
+        info: "Create a university-wide clothing drive to update and support students taking their next step to future success.",
+        impact: "This initiative will affect all students as they will be invited to attend and donate to the Career Ready Clothing Drive. ",
+        plan: `Our goal is to place emphasis on providing affordable business professional attire for students to obtain and wear proudly when venturing out to experiential learning and future career opportunities.
+        While working with varying offices and career readiness centers, we will build a plethora of updated, styled clothing items for students to pick up and add to their closets. This initiative will be a fluid process with no official end date in order to continue the collaboration. 
+        Social media spotlights and email communication will be heavily shared with students regarding the drive when nearing Career Fairs and organization recruitments. 
+        `,
         color: "darkmaroon"
     }
 ];
 const VARSITY = [
     {
-        name: "Revamp Outreach Week",
-        info: `i. In collaboration with SAB and UFB, we plan to
-            revamp Outreach Week and send Student Government
-            members to directly engage with student organizations
-            on campus. During this week, SG members will meet with
-            several student organizations to explain funding processes,
-            and various resources that the Student Government network can
-            provide. This will create direct links from every student organization
-            to Student Government and encourage collaboration and connectivity across campus. `,
-        impact: '',
-        plan: '',
+        name: "The Women of One Team",
+        info: `When women win, we all win. Together we will increase exposure and empowerment within UC Women’s Sports by advancements in advertisement, exposure, and game coverage.
+        Our university is well known for our pride and cheer for our athletic teams as our sport’s success  is a monumental part of our campus experience. 
+        As the first all-women slate, we would like to amplify the recognition, hype, and game day coverage of UC Women’s Athletics and individual athletes.
+        `,
+        impact: `This initiative will impact all UC sports fans and student athletes near and far.`,
+        plan: `Our plan for this initiative is broken up into advocacy, exposure, and connection.
+        We will continue the work of Hannah Markel’s and Dr. Sojka’s work and legacy of the Inspire Equip Connect Program (IEC) to further positively affect the next generations of Bearcats to come. This program will be expanded to have more members of the community trained and able to attend IEC sessions. 
+        Expand recognition of women student athletes and team achievements from additions of, but not limited too: Women Athlete of the Month, game day highlights, promote scheduled meets and events, and recognition of the powerful women-identifying coaching staff. 
+        `,
         color: "isthischerry"
     },
     {
-        name: "Student Trustee Voting Rights ",
-        info: `i. For too long, our Student Trustee has gone without
-      the ability to cast a vote on essential issues that directly
-      impact the student body. This not only diminishes the Student Trustees
-      ability to engage with other Board of Trustee members, but also diminishes
-      the voice of the Student Body as a whole. We plan to work directly with the
-      Governor's Office and State Legislature to ensure that the UC student voice
-      can be heard in a clear and concise manner, not lost in
-      meeting minutes on UC’s website.
-      `,
-        impact: '',
-        plan: '',
+        name: "Expand Bearcat Fridays",
+        info: `Bring back the excitement of one of UC’s decades long traditions in all it’s glory that will have you boasting from coast to coast! By welcoming local and student run businesses to the game day excitement through the addition of tabling we will foster a community of support for holistic school spirit. `,
+        impact: `Expanding Bearcat Fridays means all members of the UC community are invited and highly encouraged to partake in the newest addition of this experience! Through increasing visibility to student entrepreneurial efforts and community members, we hope to positively impact business success. This would also expand inward to the first-year and transfer experience by introducing new Bearcats to all that Cincinnati has to offer!`,
+        plan: `Why should Bearcat Fridays stop at game day festivities? We envision spirit and excitement returning to campus with strength in unity as our backbone. 
+        Student and locally run businesses will be invited to table during the Friday celebrations in a format similar to that of the annual SG Farmer’s Market. Here businesses are able to expand to new audiences and introduce students to all that is offered at UC. 
+        Organizations, Clubs, Identity Based Centers, and Campus Resources will be proudly welcomed to table along MainStreet to introduce their groups to the student body, outreach for recruitment, and increase the excitement. 
+        Events including Bearcat photo opportunities, team shoutouts, and spirit squads will also be found in the line up. 
+        `,
         color: "isthischerry"
     },
     {
-        name: "Advocating with SACUB ",
-        info: `i. Every year, the Student Advisory Committee on the
-      University Budget provides recommendations to the University
-      about how to allocate our $28 million dollar general fee.
-      We believe it is essential that Student Government becomes
-      more engaged in this process and assists SACUB in advocating
-      for the implementation of its recommendations each year.
-      d. Student Safety Board Reform
-      i. Since the murder of Sam DuBose and the reform of Univeristy of
-      Cincinnati Police Department, the Student Safety Board has not had a clear vision for their mission and purpose within Student Government. We plan to open dialogue about where SSB can engage with students and they can collaborate with offices like International Student Services, the Office of Accessibility, etc. to spread awareness about issues and
-      advocate for the safety of all students on campus.
-
-      `,
-        impact: '',
-        plan: '',
-        color: "isthischerry"
-    },
-    {
-        name: "Student Safety Board Reform",
-        info: `i. Since the murder of Sam DuBose and the
-            reform of Univeristy of Cincinnati Police Department,
-            the Student Safety Board has not had a clear vision for their
-            mission and purpose within Student Government. We plan to open
-            dialogue about where SSB can engage with students and they can
-            collaborate with offices like International Student Services,
-            the Office of Accessibility, etc. to spread awareness about
-            issues and advocate for the safety of all students on campus.
-      `,
-        impact: '',
-        plan: '',
-        color: "isthischerry"
-    },
-    {
-        name: "SG Legislative Agenda ",
-        info: `i. Working in tandem with our Governmental Relations
-      committee, we plan to establish an SG Legislative Agenda
-      on our official website that will track important local, state,
-      and federal bills as well as give students tangible advocacy
-      tools to engage with their Representatives and get
-      involved with the civic process.
-
-      `,
-        impact: '',
-        plan: '',
+        name: "UC Re-Envisioned",
+        info: `With a campus full of passion and color, we know many members of the student body who are always ready to show off their spirit! 
+        As we reopen campus we see the need to come back with a new look - students will make their mark on campus with an official spirit rock, outdoor student lounge space, and additional mural spaces.
+        `,
+        impact: `This initiative will impact all Bearcats! By providing more places for Bearcats to express their pride, we will work to create a brighter and more spirited UC for all. `,
+        plan: `To tackle these three ideas, we will work with numerous on campus and off campus groups to ensure all safety precautions, funding needs, and campus requests are fulfilled. 
+        Unlike many large universities and institutions, UC does not hold a Spirit Rock for students to decorate and check out. With the addition of our own, organizations and students can advertise and bring awareness to events in a new, exciting format. 
+        Both collaborative and decorative campus mural spaces will be created for student’s to reclaim their time at UC and manifest their future success in a creative and expressive manner as well as highlight red & black on campus! 
+        Create an on campus location where students can gather to showcase their talents of arts, organizations could meet in fair weather, and re-envisioned to make campus more versatile and up to date with the progression of student experience. We aim to survey the student body and gauge what an ideal outdoor student lounge space would look like in order to craft a working floor plan that all can make their own alongside campus resources and offices. 
+        `,
         color: "isthischerry"
     }
 ];
 const YOURCAMPUS = [
     {
-        name: "Sustainability ",
-        info: `i. We want every student on campus to know that we are dedicated to sustainable advocacy and will continue that dedication if elected into
-        these positions. Our dedication can be seen in our campaign t-shirts that were screen printed with the help of SFI (Sustainable Fashion Initiatives), our commitment to providing food options for UC students with dietary restrictions at all of our events, and our support of local business in all of our social media giveaways.
-        `,
-        impact: ``,
-        plan: ``,
-        color: "yellowish"
-    },
-    {
-        name: "Collaboration and Connectivity ",
-        info: `i. As you read through our platform, we want you to
-      notice how many different organizations, offices, and
-      community partners we plan to collaborate with in our initiatives.
-      We believe that it is essential for Student Government to become
-      more integrated into the social ecosystem of our campus, clifton,
-      and cincinnati communities. We plan to be bolder advocates for
-      everyone who is impacted by our University and that can only
-       happen if we are connected to those people on a deeper level.
-
-      `,
-        impact: ``,
-        plan: ``,
-        color: "yellowish"
-    },
-    {
-        name: "Renaming McMicken ",
-        info: `i. We believe that Renaming McMicken is a crucial issue
-    to the progress of our University as a whole. While we do not
-    believe that we have all the answers for how this issue should
-    be solved, we plan to ensure that this conversation stays at the
-    forefront by bringing together a committee of campus partners
-    such as the AACRC, EPS, students, faculty, staff, University Alumni,
-    and organizations that have already begun advocacy on this issues.
-    Working with these groups, we will identify a new name for the
-    McMicken building as well as steps that the University can take
-    to address all incidents of racial inequality in its past, present, and future.
-
-    `,
-        impact: ``,
-        plan: ``,
-        color: "yellowish"
-    },
-    {
-        name: "YMCA Building",
-        info: `i. AAs the University continues to work on
-  stabilizing the YMCA building on Calhoun street,
-  we plan to continuously engage P+D+C on its progress
-  and plans for the future of the building. Although we
-  support visions such as the Herbert + Liebman initiative
-  to establish a Center for Civic Excellence, we also plan to
-  engage the student body about how the
-  space can be utilized for future Bearcats.
-
-  `,
-        impact: ``,
-        plan: ``,
-        color: "yellowish"
-    },
-    {
-        name: "Cincinnati Public School Recruitment ",
-        info: `i. We are committed to working with the
-  Admissions office to strategize on improvements to our
-  current CPS recruitment tactics. Schools like Hughes high
-  school are not even in the top 10 of recruitment from CPS
-  schools, and it is essential that UC is reaching every
-  high school student in Cincinnati if we are to continue
-  progressing as a University. Student Government has the
-  resources to support current recruitment efforts and should
-  also be engaging students about the importance of this issue
-  and how they can get involved in reaching and retaining future CPS
-  graduates.
-
-
-  `,
-        impact: ``,
-        plan: ``,
-        color: "yellowish"
-    },
-    {
-        name: "Graduation Assistance ",
-        info: `i. Every year, there are several students who
-  are not able to graduate because of outstanding payments
-  to the University. We plan to work with the UC Foundation
-  and other UC administrators to ensure that every student in
-  their senior year is able to graduate, and that there are systems
-  in place to clear payments so that seniors can take the next steps
-  in their Bearcat journey.
-  `,
+        name: "Submit Your Platform Point",
+        info: `Want to see something never done before on campus? Submit your ideas for Gable + Allgood to improve UC and your idea might just be chosen to be our final platform point!
+        Similar to one of our initiatives in our Action Pillar, from the start of campaigning to the final day before platform submission, we will be accepting any initiatives ideas you would like us to add to our campaign to be our final platform point!`,
         impact: ``,
         plan: ``,
         color: "yellowish"
@@ -820,18 +557,6 @@ class SupportService {
         let subject = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
         setTimeout(() => { subject.next(SUPPORT); subject.complete(); }, 100);
         return subject;
-    }
-    getNextSupport(id) {
-        let x = SUPPORT.find(cs => cs.id == id);
-        if (!x)
-            return this.getNextSupport((id + 1));
-        return x;
-    }
-    getPrevSupport(id) {
-        let x = SUPPORT.find(cs => cs.id == id);
-        if (!x)
-            return this.getNextSupport((id - 1));
-        return x;
     }
 }
 SupportService.ɵfac = function SupportService_Factory(t) { return new (t || SupportService)(); };
@@ -896,10 +621,10 @@ const SUPPORT = [
         id: 14,
         address: "../../assets/testimonials/14.png"
     },
-    // {
-    //       id:15,
-    //       address: "../../assets/testimonials/15.png"
-    //   },
+    {
+        id: 15,
+        address: "../../assets/testimonials/15.png"
+    },
     {
         id: 16,
         address: "../../assets/testimonials/16.png"
@@ -908,18 +633,18 @@ const SUPPORT = [
         id: 17,
         address: "../../assets/testimonials/17.png"
     },
-    // {
-    //       id:18,
-    //       address: "../../assets/testimonials/18.png"
-    //   },
+    {
+        id: 18,
+        address: "../../assets/testimonials/18.png"
+    },
     {
         id: 19,
         address: "../../assets/testimonials/19.png"
     },
-    // {
-    //     id:20,
-    //     address: "../../assets/testimonials/20.png"
-    // },
+    {
+        id: 20,
+        address: "../../assets/testimonials/20.png"
+    },
     {
         id: 21,
         address: "../../assets/testimonials/21.png"
@@ -987,6 +712,10 @@ const SUPPORT = [
     {
         id: 37,
         address: "../../assets/testimonials/37.png"
+    },
+    {
+        id: 38,
+        address: "../../assets/testimonials/38.png"
     },
     {
         id: 39,
@@ -1117,6 +846,10 @@ const SUPPORT = [
         address: "../../assets/testimonials/70.png"
     },
     {
+        id: 71,
+        address: "../../assets/testimonials/71.png"
+    },
+    {
         id: 72,
         address: "../../assets/testimonials/72.png"
     },
@@ -1150,7 +883,7 @@ function CampusSupportComponent_div_5_Template(rf, ctx) { if (rf & 1) {
     const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "img", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function CampusSupportComponent_div_5_Template_img_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4); const support_r2 = ctx.$implicit; const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r3.openImage(support_r2); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function CampusSupportComponent_div_5_Template_img_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4); const support_r2 = ctx.$implicit; const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r3.openImage(support_r2.address); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -1166,40 +899,31 @@ function CampusSupportComponent_div_7_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "\u00D7");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "div", 9);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
     const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r1.modalImg.address, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("src", ctx_r1.modalImg, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"]);
 } }
 class CampusSupportComponent {
     constructor(supportService) {
         this.supportService = supportService;
-        this.modalImg = { id: 0, address: "" };
         this.imgOpen = false;
     }
     ngOnInit() {
         this.supports = this.supportService.getSupports();
     }
     openImage(src) {
-        console.log(src);
-        this.modalImg = { id: 0, address: "" };
-        this.modalImg.id = src.id;
-        this.modalImg.address = src.address;
+        this.modalImg = src;
         this.imgOpen = true;
     }
     closeImage() {
         this.imgOpen = false;
     }
-    slideNext() {
-        this.modalImg = this.supportService.getNextSupport((this.modalImg.id) + 1);
-    }
-    slidePrev() {
-        this.modalImg = this.supportService.getPrevSupport((this.modalImg.id) - 1);
-    }
 }
 CampusSupportComponent.ɵfac = function CampusSupportComponent_Factory(t) { return new (t || CampusSupportComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_campus_support_service__WEBPACK_IMPORTED_MODULE_1__["SupportService"])); };
-CampusSupportComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CampusSupportComponent, selectors: [["app-campus-support"]], decls: 8, vars: 4, consts: [[1, "mt-2"], [1, "campus-support"], ["class", "box1 p-2", 4, "ngFor", "ngForOf"], ["id", "myModal", "class", "modal", 4, "ngIf"], [1, "box1", "p-2"], ["alt", "", 2, "cursor", "pointer", 3, "src", "click"], ["id", "myModal", 1, "modal"], [1, "close", 3, "click"], ["id", "img01", 1, "modal-content", 3, "src"]], template: function CampusSupportComponent_Template(rf, ctx) { if (rf & 1) {
+CampusSupportComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CampusSupportComponent, selectors: [["app-campus-support"]], decls: 8, vars: 4, consts: [[1, "mt-2"], [1, "campus-support"], ["class", "box1 p-2", 4, "ngFor", "ngForOf"], ["id", "myModal", "class", "modal", 4, "ngIf"], [1, "box1", "p-2"], ["alt", "", 2, "cursor", "pointer", 3, "src", "click"], ["id", "myModal", 1, "modal"], [1, "close", 3, "click"], ["id", "img01", 1, "modal-content", 3, "src"], ["id", "caption"]], template: function CampusSupportComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "CAMPUS SUPPORT");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1210,13 +934,13 @@ CampusSupportComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, CampusSupportComponent_div_5_Template, 2, 1, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](6, "async");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, CampusSupportComponent_div_7_Template, 4, 1, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, CampusSupportComponent_div_7_Template, 5, 1, "div", 3);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 2, ctx.supports));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.imgOpen);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["AsyncPipe"]], styles: [".campus-support[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap:wrap;\r\n}\r\n\r\n.box1[_ngcontent-%COMP%]{\r\n    flex-basis: 30%;\r\n}\r\n\r\nimg[_ngcontent-%COMP%]{\r\n    max-width: 100%;\r\n    min-width: 300px;\r\n    box-shadow: 5px 5px 3px grey;\r\n}\r\n\r\nimg[_ngcontent-%COMP%]:hover{\r\n    box-shadow: 6px 6px 4px grey;\r\n}\r\n\r\np[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n    text-align: center;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n    text-align: center;\r\n}\r\n\r\n.modal[_ngcontent-%COMP%] {\r\n    display: block; \r\n    position: fixed; \r\n    z-index: 1; \r\n    padding-top: 200px; \r\n    left: 0;\r\n    top: 0;\r\n    width: 100%; \r\n    height: 100%; \r\n    overflow: auto; \r\n    background-color: rgb(0,0,0); \r\n    background-color: rgba(0,0,0,0.9); \r\n}\r\n\r\n\r\n\r\n.modal-content[_ngcontent-%COMP%] {\r\n    margin: auto;\r\n    display: block;\r\n    width: 80%;\r\n    max-width: 650px;\r\n}\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n.modal-content[_ngcontent-%COMP%], #caption[_ngcontent-%COMP%] {\r\n    animation-name: zoom;\r\n    animation-duration: 0.6s;\r\n}\r\n\r\n\r\n\r\n.close[_ngcontent-%COMP%] {\r\n    position: absolute;\r\n    top: 135px;\r\n    right: 35px;\r\n    color: #f1f1f1;\r\n    font-size: 40px;\r\n    font-weight: bold;\r\n    transition: 0.3s;\r\n}\r\n\r\n.close[_ngcontent-%COMP%]:hover, .close[_ngcontent-%COMP%]:focus {\r\n    color: #bbb;\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhbXB1cy1zdXBwb3J0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxlQUFlO0FBQ25COztBQUdBO0lBQ0ksZUFBZTtJQUNmLGdCQUFnQjtJQUNoQiw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSw0QkFBNEI7QUFDaEM7O0FBQ0E7SUFDSSxxQ0FBcUM7SUFDckMsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxxQ0FBcUM7SUFDckMsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixrQkFBa0I7QUFDdEI7O0FBR0E7SUFDSSxjQUFjLEVBQUUsc0JBQXNCO0lBQ3RDLGVBQWUsRUFBRSxrQkFBa0I7SUFDbkMsVUFBVSxFQUFFLGVBQWU7SUFDM0Isa0JBQWtCLEVBQUUsd0JBQXdCO0lBQzVDLE9BQU87SUFDUCxNQUFNO0lBQ04sV0FBVyxFQUFFLGVBQWU7SUFDNUIsWUFBWSxFQUFFLGdCQUFnQjtJQUM5QixjQUFjLEVBQUUsNEJBQTRCO0lBQzVDLDRCQUE0QixFQUFFLG1CQUFtQjtJQUNqRCxpQ0FBaUMsRUFBRSxxQkFBcUI7QUFDNUQ7O0FBRUEsMEJBQTBCOztBQUMxQjtJQUNJLFlBQVk7SUFDWixjQUFjO0lBQ2QsVUFBVTtJQUNWLGdCQUFnQjtBQUNwQjs7QUFFQSxrRUFBa0U7O0FBQ2xFOzs7Ozs7O0dBT0c7O0FBRUgsc0NBQXNDOztBQUN0QztJQUNJLG9CQUFvQjtJQUNwQix3QkFBd0I7QUFDNUI7O0FBRUEscUJBQXFCOztBQUNyQjtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGdCQUFnQjtBQUNwQjs7QUFHQTs7SUFFSSxXQUFXO0lBQ1gscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkI7O0FBRUE7Ozs7Ozs7Ozs7Ozs7Ozs7OztHQWtCRyIsImZpbGUiOiJjYW1wdXMtc3VwcG9ydC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNhbXB1cy1zdXBwb3J0e1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgZmxleC13cmFwOndyYXA7XHJcbn1cclxuXHJcbi5ib3gxe1xyXG4gICAgZmxleC1iYXNpczogMzAlO1xyXG59XHJcblxyXG5cclxuaW1ne1xyXG4gICAgbWF4LXdpZHRoOiAxMDAlO1xyXG4gICAgbWluLXdpZHRoOiAzMDBweDtcclxuICAgIGJveC1zaGFkb3c6IDVweCA1cHggM3B4IGdyZXk7XHJcbn1cclxuXHJcbmltZzpob3ZlcntcclxuICAgIGJveC1zaGFkb3c6IDZweCA2cHggNHB4IGdyZXk7XHJcbn1cclxucHtcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG4gICAgZm9udC1zaXplOiAxMXB0O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG5IMntcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgZm9udC1zaXplOiAyOHB0O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG5cclxuLm1vZGFsIHtcclxuICAgIGRpc3BsYXk6IGJsb2NrOyAvKiBIaWRkZW4gYnkgZGVmYXVsdCAqL1xyXG4gICAgcG9zaXRpb246IGZpeGVkOyAvKiBTdGF5IGluIHBsYWNlICovXHJcbiAgICB6LWluZGV4OiAxOyAvKiBTaXQgb24gdG9wICovXHJcbiAgICBwYWRkaW5nLXRvcDogMjAwcHg7IC8qIExvY2F0aW9uIG9mIHRoZSBib3ggKi9cclxuICAgIGxlZnQ6IDA7XHJcbiAgICB0b3A6IDA7XHJcbiAgICB3aWR0aDogMTAwJTsgLyogRnVsbCB3aWR0aCAqL1xyXG4gICAgaGVpZ2h0OiAxMDAlOyAvKiBGdWxsIGhlaWdodCAqL1xyXG4gICAgb3ZlcmZsb3c6IGF1dG87IC8qIEVuYWJsZSBzY3JvbGwgaWYgbmVlZGVkICovXHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2IoMCwwLDApOyAvKiBGYWxsYmFjayBjb2xvciAqL1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiYSgwLDAsMCwwLjkpOyAvKiBCbGFjayB3LyBvcGFjaXR5ICovXHJcbn1cclxuXHJcbi8qIE1vZGFsIENvbnRlbnQgKEltYWdlKSAqL1xyXG4ubW9kYWwtY29udGVudCB7XHJcbiAgICBtYXJnaW46IGF1dG87XHJcbiAgICBkaXNwbGF5OiBibG9jaztcclxuICAgIHdpZHRoOiA4MCU7XHJcbiAgICBtYXgtd2lkdGg6IDY1MHB4O1xyXG59XHJcblxyXG4vKiBDYXB0aW9uIG9mIE1vZGFsIEltYWdlIChJbWFnZSBUZXh0KSAtIFNhbWUgV2lkdGggYXMgdGhlIEltYWdlICovXHJcbi8qICNjYXB0aW9uIHtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiAjY2NjO1xyXG4gICAgcGFkZGluZzogMTBweCAwO1xyXG59ICovXHJcblxyXG4vKiBBZGQgQW5pbWF0aW9uIC0gWm9vbSBpbiB0aGUgTW9kYWwgKi9cclxuLm1vZGFsLWNvbnRlbnQsICNjYXB0aW9uIHtcclxuICAgIGFuaW1hdGlvbi1uYW1lOiB6b29tO1xyXG4gICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAwLjZzO1xyXG59XHJcblxyXG4vKiBUaGUgQ2xvc2UgQnV0dG9uICovXHJcbi5jbG9zZSB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDEzNXB4O1xyXG4gICAgcmlnaHQ6IDM1cHg7XHJcbiAgICBjb2xvcjogI2YxZjFmMTtcclxuICAgIGZvbnQtc2l6ZTogNDBweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgdHJhbnNpdGlvbjogMC4zcztcclxufVxyXG5cclxuXHJcbi5jbG9zZTpob3ZlcixcclxuLmNsb3NlOmZvY3VzIHtcclxuICAgIGNvbG9yOiAjYmJiO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59XHJcblxyXG4vKiAubmV4dEFycm93e1xyXG4gICAgd2lkdGg6IDEwJTtcclxuICAgIGNvbG9yOiAjYmJiO1xyXG4gICAgZm9udC1zaXplOiAxNTBweDtcclxuICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxuICAgIHVzZXItc2VsZWN0OiBub25lO1xyXG4gICAgcGFkZGluZy1sZWZ0OiAyMHB4O1xyXG59XHJcblxyXG5cclxuLnByZXZBcnJvd3tcclxuICAgIGNvbG9yOiAjYmJiO1xyXG4gICAgZm9udC1zaXplOiAxNTBweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgdXNlci1zZWxlY3Q6IG5vbmU7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiAyMHB4O1xyXG59ICovXHJcbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["AsyncPipe"]], styles: [".campus-support[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    flex-wrap:wrap;\r\n}\r\n\r\n.box1[_ngcontent-%COMP%]{\r\n    flex-basis: 30%;\r\n}\r\n\r\nimg[_ngcontent-%COMP%]{\r\n    max-width: 100%;\r\n    min-width: 300px;\r\n    box-shadow: 5px 5px 3px grey;\r\n}\r\n\r\nimg[_ngcontent-%COMP%]:hover{\r\n    box-shadow: 6px 6px 4px grey;\r\n}\r\n\r\np[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n    text-align: center;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n    text-align: center;\r\n}\r\n\r\n.modal[_ngcontent-%COMP%] {\r\n    display: block; \r\n    position: fixed; \r\n    z-index: 1; \r\n    padding-top: 200px; \r\n    left: 0;\r\n    top: 0;\r\n    width: 100%; \r\n    height: 100%; \r\n    overflow: auto; \r\n    background-color: rgb(0,0,0); \r\n    background-color: rgba(0,0,0,0.9); \r\n}\r\n\r\n\r\n\r\n.modal-content[_ngcontent-%COMP%] {\r\n    margin: auto;\r\n    display: block;\r\n    width: 80%;\r\n    max-width: 650px;\r\n}\r\n\r\n\r\n\r\n#caption[_ngcontent-%COMP%] {\r\n    margin: auto;\r\n    display: block;\r\n    width: 80%;\r\n    max-width: 700px;\r\n    text-align: center;\r\n    color: #ccc;\r\n    padding: 10px 0;\r\n    height: 150px;\r\n}\r\n\r\n\r\n\r\n.modal-content[_ngcontent-%COMP%], #caption[_ngcontent-%COMP%] {\r\n    animation-name: zoom;\r\n    animation-duration: 0.6s;\r\n}\r\n\r\n\r\n\r\n.close[_ngcontent-%COMP%] {\r\n    position: absolute;\r\n    top: 135px;\r\n    right: 35px;\r\n    color: #f1f1f1;\r\n    font-size: 40px;\r\n    font-weight: bold;\r\n    transition: 0.3s;\r\n}\r\n\r\n.close[_ngcontent-%COMP%]:hover, .close[_ngcontent-%COMP%]:focus {\r\n    color: #bbb;\r\n    text-decoration: none;\r\n    cursor: pointer;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNhbXB1cy1zdXBwb3J0LmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxlQUFlO0FBQ25COztBQUdBO0lBQ0ksZUFBZTtJQUNmLGdCQUFnQjtJQUNoQiw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSw0QkFBNEI7QUFDaEM7O0FBQ0E7SUFDSSxpQ0FBaUM7SUFDakMsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxpQ0FBaUM7SUFDakMsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixrQkFBa0I7QUFDdEI7O0FBR0E7SUFDSSxjQUFjLEVBQUUsc0JBQXNCO0lBQ3RDLGVBQWUsRUFBRSxrQkFBa0I7SUFDbkMsVUFBVSxFQUFFLGVBQWU7SUFDM0Isa0JBQWtCLEVBQUUsd0JBQXdCO0lBQzVDLE9BQU87SUFDUCxNQUFNO0lBQ04sV0FBVyxFQUFFLGVBQWU7SUFDNUIsWUFBWSxFQUFFLGdCQUFnQjtJQUM5QixjQUFjLEVBQUUsNEJBQTRCO0lBQzVDLDRCQUE0QixFQUFFLG1CQUFtQjtJQUNqRCxpQ0FBaUMsRUFBRSxxQkFBcUI7QUFDNUQ7O0FBRUEsMEJBQTBCOztBQUMxQjtJQUNJLFlBQVk7SUFDWixjQUFjO0lBQ2QsVUFBVTtJQUNWLGdCQUFnQjtBQUNwQjs7QUFFQSxrRUFBa0U7O0FBQ2xFO0lBQ0ksWUFBWTtJQUNaLGNBQWM7SUFDZCxVQUFVO0lBQ1YsZ0JBQWdCO0lBQ2hCLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZUFBZTtJQUNmLGFBQWE7QUFDakI7O0FBRUEsc0NBQXNDOztBQUN0QztJQUNJLG9CQUFvQjtJQUNwQix3QkFBd0I7QUFDNUI7O0FBRUEscUJBQXFCOztBQUNyQjtJQUNJLGtCQUFrQjtJQUNsQixVQUFVO0lBQ1YsV0FBVztJQUNYLGNBQWM7SUFDZCxlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGdCQUFnQjtBQUNwQjs7QUFFQTs7SUFFSSxXQUFXO0lBQ1gscUJBQXFCO0lBQ3JCLGVBQWU7QUFDbkIiLCJmaWxlIjoiY2FtcHVzLXN1cHBvcnQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jYW1wdXMtc3VwcG9ydHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWV2ZW5seTtcclxuICAgIGZsZXgtd3JhcDp3cmFwO1xyXG59XHJcblxyXG4uYm94MXtcclxuICAgIGZsZXgtYmFzaXM6IDMwJTtcclxufVxyXG5cclxuXHJcbmltZ3tcclxuICAgIG1heC13aWR0aDogMTAwJTtcclxuICAgIG1pbi13aWR0aDogMzAwcHg7XHJcbiAgICBib3gtc2hhZG93OiA1cHggNXB4IDNweCBncmV5O1xyXG59XHJcblxyXG5pbWc6aG92ZXJ7XHJcbiAgICBib3gtc2hhZG93OiA2cHggNnB4IDRweCBncmV5O1xyXG59XHJcbnB7XHJcbiAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG4gICAgZm9udC1zaXplOiAxMXB0O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG5IMntcclxuICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICBmb250LXNpemU6IDI4cHQ7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcblxyXG4ubW9kYWwge1xyXG4gICAgZGlzcGxheTogYmxvY2s7IC8qIEhpZGRlbiBieSBkZWZhdWx0ICovXHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7IC8qIFN0YXkgaW4gcGxhY2UgKi9cclxuICAgIHotaW5kZXg6IDE7IC8qIFNpdCBvbiB0b3AgKi9cclxuICAgIHBhZGRpbmctdG9wOiAyMDBweDsgLyogTG9jYXRpb24gb2YgdGhlIGJveCAqL1xyXG4gICAgbGVmdDogMDtcclxuICAgIHRvcDogMDtcclxuICAgIHdpZHRoOiAxMDAlOyAvKiBGdWxsIHdpZHRoICovXHJcbiAgICBoZWlnaHQ6IDEwMCU7IC8qIEZ1bGwgaGVpZ2h0ICovXHJcbiAgICBvdmVyZmxvdzogYXV0bzsgLyogRW5hYmxlIHNjcm9sbCBpZiBuZWVkZWQgKi9cclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigwLDAsMCk7IC8qIEZhbGxiYWNrIGNvbG9yICovXHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsMCwwLDAuOSk7IC8qIEJsYWNrIHcvIG9wYWNpdHkgKi9cclxufVxyXG5cclxuLyogTW9kYWwgQ29udGVudCAoSW1hZ2UpICovXHJcbi5tb2RhbC1jb250ZW50IHtcclxuICAgIG1hcmdpbjogYXV0bztcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgd2lkdGg6IDgwJTtcclxuICAgIG1heC13aWR0aDogNjUwcHg7XHJcbn1cclxuXHJcbi8qIENhcHRpb24gb2YgTW9kYWwgSW1hZ2UgKEltYWdlIFRleHQpIC0gU2FtZSBXaWR0aCBhcyB0aGUgSW1hZ2UgKi9cclxuI2NhcHRpb24ge1xyXG4gICAgbWFyZ2luOiBhdXRvO1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICB3aWR0aDogODAlO1xyXG4gICAgbWF4LXdpZHRoOiA3MDBweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGNvbG9yOiAjY2NjO1xyXG4gICAgcGFkZGluZzogMTBweCAwO1xyXG4gICAgaGVpZ2h0OiAxNTBweDtcclxufVxyXG5cclxuLyogQWRkIEFuaW1hdGlvbiAtIFpvb20gaW4gdGhlIE1vZGFsICovXHJcbi5tb2RhbC1jb250ZW50LCAjY2FwdGlvbiB7XHJcbiAgICBhbmltYXRpb24tbmFtZTogem9vbTtcclxuICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMC42cztcclxufVxyXG5cclxuLyogVGhlIENsb3NlIEJ1dHRvbiAqL1xyXG4uY2xvc2Uge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiAxMzVweDtcclxuICAgIHJpZ2h0OiAzNXB4O1xyXG4gICAgY29sb3I6ICNmMWYxZjE7XHJcbiAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgIHRyYW5zaXRpb246IDAuM3M7XHJcbn1cclxuXHJcbi5jbG9zZTpob3ZlcixcclxuLmNsb3NlOmZvY3VzIHtcclxuICAgIGNvbG9yOiAjYmJiO1xyXG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CampusSupportComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1240,11 +964,9 @@ CampusSupportComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵd
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _route_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./route-animations */ "s+wa");
-/* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "tyNb");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
-
+/* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "tyNb");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
 
 
 
@@ -1254,36 +976,24 @@ class AppComponent {
     constructor() {
         this.title = 'gableallgood';
     }
-    prepareRouterOutlet(outlet) {
-        return outlet;
-    }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 8, vars: 1, consts: [["rel", "preconnect", "href", "https://fonts.gstatic.com"], ["href", "https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap", "rel", "stylesheet"], ["rel", "stylesheet", "href", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"], ["role", "main", 1, "container"], ["outlet", "outlet"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 7, vars: 0, consts: [["rel", "preconnect", "href", "https://fonts.gstatic.com"], ["href", "https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap", "rel", "stylesheet"], ["rel", "stylesheet", "href", "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"], ["role", "main", 1, "container"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "link", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "link", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "link", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "app-nav-bar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "main", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "router-outlet", null, 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "app-footer");
-    } if (rf & 2) {
-        const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("@routeAnimations", ctx.prepareRouterOutlet(_r0));
-    } }, directives: [_nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_2__["NavBarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_3__["RouterOutlet"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_4__["FooterComponent"]], styles: ["main[_ngcontent-%COMP%]{\r\n    position: relative;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksa0JBQWtCO0FBQ3RCIiwiZmlsZSI6ImFwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsibWFpbntcclxuICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufSJdfQ== */"], data: { animation: [
-            _route_animations__WEBPACK_IMPORTED_MODULE_1__["fader"]
-        ] } });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "app-footer");
+    } }, directives: [_nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_1__["NavBarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"], _footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHAuY29tcG9uZW50LmNzcyJ9 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'app-root',
                 templateUrl: './app.component.html',
-                styleUrls: ['./app.component.css'],
-                animations: [
-                    _route_animations__WEBPACK_IMPORTED_MODULE_1__["fader"]
-                ]
+                styleUrls: ['./app.component.css']
             }]
     }], null, null); })();
 
@@ -1301,26 +1011,24 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "jhN1");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser/animations */ "R1ws");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
-/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "Sy1n");
-/* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
-/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
-/* harmony import */ var _meet_meet_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./meet/meet.component */ "dEjQ");
-/* harmony import */ var _platform_platform_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./platform/platform.component */ "lDaF");
-/* harmony import */ var _team_team_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./team/team.component */ "mGeP");
-/* harmony import */ var _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./campus-support/campus-support.component */ "PhBf");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
-/* harmony import */ var _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./platform/collapsible-well.component */ "oqwT");
-/* harmony import */ var _platform_platform_service__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./platform/platform.service */ "B15d");
-/* harmony import */ var _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./platform/platform-list.component */ "rPbr");
-/* harmony import */ var _team_teams_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./team/teams.service */ "ngQW");
-/* harmony import */ var _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./campus-support/campus-support.service */ "Ku9T");
-/* harmony import */ var _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./platform/platform-icons/platform-icons.component */ "72M+");
-/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
-/* harmony import */ var _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./submit-ideas/submit-ideas.component */ "7rov");
-
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "fXoL");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app-routing.module */ "vY5A");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "Sy1n");
+/* harmony import */ var _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./nav-bar/nav-bar.component */ "5hVl");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "1kSV");
+/* harmony import */ var _meet_meet_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./meet/meet.component */ "dEjQ");
+/* harmony import */ var _platform_platform_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./platform/platform.component */ "lDaF");
+/* harmony import */ var _team_team_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./team/team.component */ "mGeP");
+/* harmony import */ var _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./campus-support/campus-support.component */ "PhBf");
+/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./home/home.component */ "9vUh");
+/* harmony import */ var _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./platform/collapsible-well.component */ "oqwT");
+/* harmony import */ var _platform_platform_service__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./platform/platform.service */ "B15d");
+/* harmony import */ var _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./platform/platform-list.component */ "rPbr");
+/* harmony import */ var _team_teams_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./team/teams.service */ "ngQW");
+/* harmony import */ var _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./campus-support/campus-support.service */ "Ku9T");
+/* harmony import */ var _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./platform/platform-icons/platform-icons.component */ "72M+");
+/* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./footer/footer.component */ "fp1T");
+/* harmony import */ var _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./submit-ideas/submit-ideas.component */ "7rov");
 
 
 
@@ -1343,61 +1051,58 @@ __webpack_require__.r(__webpack_exports__);
 
 class AppModule {
 }
-AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
-AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [
-        _platform_platform_service__WEBPACK_IMPORTED_MODULE_13__["PlatformService"],
-        _team_teams_service__WEBPACK_IMPORTED_MODULE_15__["TeamsService"],
-        _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_16__["SupportService"]
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [
+        _platform_platform_service__WEBPACK_IMPORTED_MODULE_12__["PlatformService"],
+        _team_teams_service__WEBPACK_IMPORTED_MODULE_14__["TeamsService"],
+        _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_15__["SupportService"]
     ], imports: [[
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
-            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
+            _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"]
         ]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-        _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"],
-        _meet_meet_component__WEBPACK_IMPORTED_MODULE_7__["MeetComponent"],
-        _platform_platform_component__WEBPACK_IMPORTED_MODULE_8__["PlatformComponent"],
-        _team_team_component__WEBPACK_IMPORTED_MODULE_9__["TeamComponent"],
-        _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_10__["CampusSupportComponent"],
-        _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
-        _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_12__["CollapsibleWellComponent"],
-        _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_14__["PlatformListComponent"],
-        _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_17__["PlatformIconsComponent"],
-        _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"],
-        _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_19__["SubmitIdeasComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-        _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
-        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]] }); })();
-/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵsetClassMetadata"](AppModule, [{
-        type: _angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"],
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+        _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavBarComponent"],
+        _meet_meet_component__WEBPACK_IMPORTED_MODULE_6__["MeetComponent"],
+        _platform_platform_component__WEBPACK_IMPORTED_MODULE_7__["PlatformComponent"],
+        _team_team_component__WEBPACK_IMPORTED_MODULE_8__["TeamComponent"],
+        _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_9__["CampusSupportComponent"],
+        _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
+        _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_11__["CollapsibleWellComponent"],
+        _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_13__["PlatformListComponent"],
+        _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_16__["PlatformIconsComponent"],
+        _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
+        _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_18__["SubmitIdeasComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
+        _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
                 declarations: [
-                    _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
-                    _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavBarComponent"],
-                    _meet_meet_component__WEBPACK_IMPORTED_MODULE_7__["MeetComponent"],
-                    _platform_platform_component__WEBPACK_IMPORTED_MODULE_8__["PlatformComponent"],
-                    _team_team_component__WEBPACK_IMPORTED_MODULE_9__["TeamComponent"],
-                    _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_10__["CampusSupportComponent"],
-                    _home_home_component__WEBPACK_IMPORTED_MODULE_11__["HomeComponent"],
-                    _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_12__["CollapsibleWellComponent"],
-                    _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_14__["PlatformListComponent"],
-                    _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_17__["PlatformIconsComponent"],
-                    _footer_footer_component__WEBPACK_IMPORTED_MODULE_18__["FooterComponent"],
-                    _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_19__["SubmitIdeasComponent"]
+                    _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+                    _nav_bar_nav_bar_component__WEBPACK_IMPORTED_MODULE_4__["NavBarComponent"],
+                    _meet_meet_component__WEBPACK_IMPORTED_MODULE_6__["MeetComponent"],
+                    _platform_platform_component__WEBPACK_IMPORTED_MODULE_7__["PlatformComponent"],
+                    _team_team_component__WEBPACK_IMPORTED_MODULE_8__["TeamComponent"],
+                    _campus_support_campus_support_component__WEBPACK_IMPORTED_MODULE_9__["CampusSupportComponent"],
+                    _home_home_component__WEBPACK_IMPORTED_MODULE_10__["HomeComponent"],
+                    _platform_collapsible_well_component__WEBPACK_IMPORTED_MODULE_11__["CollapsibleWellComponent"],
+                    _platform_platform_list_component__WEBPACK_IMPORTED_MODULE_13__["PlatformListComponent"],
+                    _platform_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_16__["PlatformIconsComponent"],
+                    _footer_footer_component__WEBPACK_IMPORTED_MODULE_17__["FooterComponent"],
+                    _submit_ideas_submit_ideas_component__WEBPACK_IMPORTED_MODULE_18__["SubmitIdeasComponent"]
                 ],
                 imports: [
                     _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                    _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
-                    _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_6__["NgbModule"],
-                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_1__["BrowserAnimationsModule"]
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"],
+                    _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_5__["NgbModule"]
                 ],
                 providers: [
-                    _platform_platform_service__WEBPACK_IMPORTED_MODULE_13__["PlatformService"],
-                    _team_teams_service__WEBPACK_IMPORTED_MODULE_15__["TeamsService"],
-                    _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_16__["SupportService"]
+                    _platform_platform_service__WEBPACK_IMPORTED_MODULE_12__["PlatformService"],
+                    _team_teams_service__WEBPACK_IMPORTED_MODULE_14__["TeamsService"],
+                    _campus_support_campus_support_service__WEBPACK_IMPORTED_MODULE_15__["SupportService"]
                 ],
-                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
             }]
     }], null, null); })();
 
@@ -1423,7 +1128,7 @@ class MeetComponent {
     }
 }
 MeetComponent.ɵfac = function MeetComponent_Factory(t) { return new (t || MeetComponent)(); };
-MeetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MeetComponent, selectors: [["app-meet"]], decls: 32, vars: 0, consts: [[1, "p-2"], [1, "intro", "p-2"], [1, "intro-1", "p-2"], ["src", "../../assets/Candidates/isaac.jpg", "width", "100%", 1, "pic-shot"], ["src", "../../assets/Candidates/AGPC.png", "width", "100%", "alt", ""], [1, "intro-1"], [1, "intro-2", "intro-2-img", "p-2"], ["src", "../../assets/Candidates/yulia.jpg", "width", "100%", 1, "pic-shot"], ["src", "../../assets/Candidates/TAVPC.png", "width", "100%", "alt", ""], [1, "intro-2", "intro-2-write", "p-2"]], template: function MeetComponent_Template(rf, ctx) { if (rf & 1) {
+MeetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: MeetComponent, selectors: [["app-meet"]], decls: 40, vars: 0, consts: [[1, "p-2"], [1, "intro", "p-2"], [1, "intro-1", "p-2"], ["src", "../../assets/Candidates/april-min.png", "width", "100%", 1, "pic-shot"], ["src", "../../assets/Candidates/AGPC.png", "width", "100%", "alt", ""], [1, "intro-1"], [1, "intro-2", "intro-2-img", "p-2"], ["src", "../../assets/Candidates/taylor-min.png", "width", "100%", 1, "pic-shot"], ["src", "../../assets/Candidates/TAVPC.png", "width", "100%", "alt", ""], [1, "intro-2", "intro-2-write", "p-2"], [1, "vision", "text-center"], [1, "goals", "text-center"]], template: function MeetComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h3", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Meet the Candidates!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -1434,37 +1139,51 @@ MeetComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Student Government has been such a big part of my life and has given me so much experience in being a student leader from serving as the Director of City Relations my sophomore year, to my term as Treasurer of USG during the start of the pandemic, and in my current roles as Co-Chair of the Governmental Relations Committee and a Senator-At-Large. I\u2019ve been able to work with so many amazing people to better the student experience, and I am more than ready to take on this new challenge and utilize everything that I have learned to bring more resources and opportunities for every student to be a #BolderBearcat. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "The words, \"Next Lives Here\" are more than just a phrase to me, they are a mantra. A mantra I hold in my heart as I walk throughout campus and during every rendition of the Alma Mater. Our university has accepted the need to embrace constant evolution as that is the sole way to continue to innovation. Although innovation can be seen on campus and throughout UC's history, tradition is still widely admired. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " This campaign is all about reconsidering what\u2019s possible on our campus and pushing past our own experiences to create a UC that is more inclusive, more connected, and most importantly more bold! (Yes, I know that\u2019s not grammatically correct leave me alone!) ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, " While venturing out into the Bearcat Community as a first year student, I was amazed at the countless opportunities students had ready for them. Students were able to find their place at the table, make a difference in the surrounding area, and build a skillset that accompanied them to future success. I quickly became interested in the role the Undergraduate Student Government served within the student body and became involved as a member of the Student Government Mentoring Program, Executive Staff, and as a Senator At-Large. Here I learned how I want to make a positive, lasting impact through the guidance of others, dedication for the betterment of all, and the knowledge that a student's voice is the most powerful voice on a college campus. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " You can learn more about our campaign by following us on Instagram @votesmithermanmartinez and using our linktree to access the rest of our content! ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, " I, still a growing leader, have dug deep to educate myself and learn more of the perspectives students with differing identities than mine hold and am determined to continue this self work. I ask that through this journey, you join us in keeping each other accountable and willing to listen to one another. As potentially the first women slate at UC to be elected, Taylor and I both know that we must lay a foundation that sets forth the notion that we may be the first, but we will not be the last. That anyone who looks to a position questioning if they should even dream about holding it, know that they have all the right to do so. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Together We Will complete worthwhile initiatives for a greener, sustainably enriched campus. Together We Will strive to make a difference in the lives of each student, community member, and faculty member through increased focus on resources and needs. Together We Will be better and amplify each other's voices so that they are heard, seen, and valued. Together We Will empower women to run and make history on UC's campus. I am running to be your next Student Body President because I know that Together We Will never settle, push past barriers, and truly exhibit that Next Lives Here.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "img", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](20, "img", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "p");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, " I remember my first Student Government meeting my 2nd year where I was a Legislative Aid for the Campus Life Committee. From there I grew to be a Senator for the College of Engineering and Applied Science Tribunal, and now my current position as a Senator-At-Large. Working alongside some amazing leaders has truly made me look at myself in a whole new light. ");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](23, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, "\nI know I am ready to take this position in stride and create a UC where there are resources and opportunities for every student to be a #BolderBearcat. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Venturing into my first year at the University of Cincinnati in the fall of 2019 was life-changing for me. I would constantly reflect on my hometown roots and the privilege I hold as one of the few from my high school class to attend a four-year university. Because of this reason, I promised myself that if awarded the opportunity to attend college, I would make the most out of my four years and create a lasting impact wherever I decided to go. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "\nOur campaign is really about looking at what we originally thought was possible, and then taking it further to create a Bolder UC.\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, " I am honored to be Bearcat and call Cincinnati my home. I laugh when I tell the story about how I committed to UC before I had even toured the campus because I just knew it was for me -- I couldn\u2019t have been more right in my assumption. Both freshman orientation and being accepted into the Darwin T. Turner Scholarship Program set the stage for how transformative the next four years would be for me. During September of my first year, Student Government immediately caught my eye as an empowering organization which gave students the platform to create large-scale change. I began to learn more about the inner workings of SG through the Student Government Mentorship Program where I met inspiring student leaders who encouraged me to take on the role of Secretary of Senate. Throughout that first year, those mentors strengthened my courage during that semester, as I planned my Senator-At-Large campaign for the spring. That campaign taught me the tremendous advantages of building a team, collaborating with people around campus, and taking everyone\u2019s voice into account. Among my various campus involvements, Student Government has remained a constant for me; It aligns strongly with the work I hope to continue in my future career and allows me the platform and resources to advocate for a large body of students, especially marginalized students like myself. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "br");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](28, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "\nLearn more about our campaign by following us on instagram @votesmithermanmartinez and use the linktree to see what we have so far!\n");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](30, "br");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](31, "\nWe have a long way to go on the Bolder Bearcats campaign trail so make sure to keep up to see what we have to offer!\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, " I recognize that I will always have growing to do as a student-leader, but I look forward to showing you all that April and I are passionate individuals with the same goal of uplifting the voices of the student body through countless initiatives and ideas. It is still surreal to think that April and I could potentially make history as the first all-women slate to win an election in UC\u2019s history, but I believe the real history will be made with how we execute our terms and advocate for the student body more than ever before. I am a firm believer that how you campaign is how you lead; April and I have been intentional with our decision to lead a campaign based on love, unity, and empowerment, and Together We Will make sure we lead the student body the same exact way.\n");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["@media(min-width:768px){\r\n    .intro[_ngcontent-%COMP%]{\r\n        display: flex;\r\n        flex-wrap: wrap;\r\n        padding-top: 60px;\r\n}\r\n}\r\n\r\n\r\n\r\n.intro-2-img[_ngcontent-%COMP%]{\r\n    order: 2;\r\n}\r\n\r\n\r\n\r\n.intro-2-write[_ngcontent-%COMP%]{\r\n    order: 1;\r\n}\r\n\r\n\r\n\r\n.intro-1[_ngcontent-%COMP%]{\r\n    flex-basis: 50%;\r\n}\r\n\r\n\r\n\r\n.intro-2[_ngcontent-%COMP%]{\r\n    flex-basis: 50%;\r\n}\r\n\r\n\r\n\r\np[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 13pt;\r\n}\r\n\r\n\r\n\r\nH3[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n    text-align: center;\r\n}\r\n\r\n\r\n\r\nh1[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n    color: #26517C;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJO1FBQ0ksYUFBYTtRQUNiLGVBQWU7UUFDZixpQkFBaUI7QUFDekI7QUFDQTs7OztBQUlBO0lBQ0ksUUFBUTtBQUNaOzs7O0FBRUE7SUFDSSxRQUFRO0FBQ1o7Ozs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7Ozs7QUFDQTtJQUNJLGVBQWU7QUFDbkI7Ozs7QUFFQTtJQUNJLHFDQUFxQztJQUNyQyxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7OztBQUVBO0lBQ0kscUNBQXFDO0lBQ3JDLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2Ysa0JBQWtCO0FBQ3RCOzs7O0FBSUE7SUFDSSxxQ0FBcUM7SUFDckMsZ0JBQWdCO0lBQ2hCLGNBQWM7QUFDbEIiLCJmaWxlIjoibWVldC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQG1lZGlhKG1pbi13aWR0aDo3NjhweCl7XHJcbiAgICAuaW50cm97XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7XHJcbiAgICAgICAgcGFkZGluZy10b3A6IDYwcHg7XHJcbn1cclxufVxyXG5cclxuXHJcblxyXG4uaW50cm8tMi1pbWd7XHJcbiAgICBvcmRlcjogMjtcclxufVxyXG5cclxuLmludHJvLTItd3JpdGV7XHJcbiAgICBvcmRlcjogMTtcclxufVxyXG5cclxuLmludHJvLTF7XHJcbiAgICBmbGV4LWJhc2lzOiA1MCU7XHJcbn1cclxuLmludHJvLTJ7XHJcbiAgICBmbGV4LWJhc2lzOiA1MCU7XHJcbn1cclxuXHJcbnB7XHJcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxuICAgIGZvbnQtc2l6ZTogMTNwdDtcclxufVxyXG5cclxuSDN7XHJcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIGZvbnQtc2l6ZTogMjhwdDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuXHJcblxyXG5oMXtcclxuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgY29sb3I6ICMyNjUxN0M7XHJcbn1cclxuIl19 */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "OUR VISION FOR THE STUDENT GOVERNMENT");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, "This past year has presented circumstances like no other before, there is a need to give power back to students. By focusing on student involvement, academic opportunities, and the little things that make the college experience that much better, Gable+Allgood dedicates this campaign to the campus experience lost over the last year. The next steps of UC defines the legacy of its current students; Together We Will create a campus accepting and celebrative of all students.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "h1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "OUR VISION FOR THE STUDENT BODY");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, "We envision a Student Government that is transparent and accessible to all students. By creating initiatives for open dialogue, efforts to advance sustainability, and re-envisioning the University of Cincinnati holistically, we will welcome every student to a spot at our table. We believe that there is no stronger voice on a college campus than that of a student - and Together We Will make sure all are heard. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, styles: ["@media(min-width:768px){\r\n    .intro[_ngcontent-%COMP%]{\r\n        display: flex;\r\n        flex-wrap: wrap; \r\n        padding-top: 60px;\r\n}\r\n}\r\n\r\n\r\n\r\n.intro-2-img[_ngcontent-%COMP%]{\r\n    order: 2;\r\n}\r\n\r\n\r\n\r\n.intro-2-write[_ngcontent-%COMP%]{\r\n    order: 1;\r\n}\r\n\r\n\r\n\r\n.intro-1[_ngcontent-%COMP%]{\r\n    flex-basis: 50%;\r\n}\r\n\r\n\r\n\r\n.intro-2[_ngcontent-%COMP%]{\r\n    flex-basis: 50%;\r\n}\r\n\r\n\r\n\r\np[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n}\r\n\r\n\r\n\r\nH3[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n    text-align: center;\r\n}\r\n\r\n\r\n\r\nh1[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n    color: #591937;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1lZXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJO1FBQ0ksYUFBYTtRQUNiLGVBQWU7UUFDZixpQkFBaUI7QUFDekI7QUFDQTs7OztBQUlBO0lBQ0ksUUFBUTtBQUNaOzs7O0FBRUE7SUFDSSxRQUFRO0FBQ1o7Ozs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7Ozs7QUFDQTtJQUNJLGVBQWU7QUFDbkI7Ozs7QUFFQTtJQUNJLGlDQUFpQztJQUNqQyxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7OztBQUVBO0lBQ0ksaUNBQWlDO0lBQ2pDLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2Ysa0JBQWtCO0FBQ3RCOzs7O0FBSUE7SUFDSSxpQ0FBaUM7SUFDakMsZ0JBQWdCO0lBQ2hCLGNBQWM7QUFDbEIiLCJmaWxlIjoibWVldC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQG1lZGlhKG1pbi13aWR0aDo3NjhweCl7XHJcbiAgICAuaW50cm97XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmbGV4LXdyYXA6IHdyYXA7IFxyXG4gICAgICAgIHBhZGRpbmctdG9wOiA2MHB4O1xyXG59XHJcbn1cclxuXHJcblxyXG5cclxuLmludHJvLTItaW1ne1xyXG4gICAgb3JkZXI6IDI7XHJcbn1cclxuXHJcbi5pbnRyby0yLXdyaXRle1xyXG4gICAgb3JkZXI6IDE7XHJcbn1cclxuXHJcbi5pbnRyby0xe1xyXG4gICAgZmxleC1iYXNpczogNTAlO1xyXG59XHJcbi5pbnRyby0ye1xyXG4gICAgZmxleC1iYXNpczogNTAlO1xyXG59XHJcblxyXG5we1xyXG4gICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxuICAgIGZvbnQtc2l6ZTogMTFwdDtcclxufVxyXG5cclxuSDN7XHJcbiAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgZm9udC1zaXplOiAyOHB0O1xyXG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG59XHJcblxyXG5cclxuXHJcbmgxe1xyXG4gICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIGNvbG9yOiAjNTkxOTM3O1xyXG59XHJcbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](MeetComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1496,7 +1215,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 15, vars: 0, consts: [[1, "container"], [1, "row", "justify-content-md-center"], [1, "social-media", "ml-5"], ["href", "https://www.facebook.com/profile.php?id=100077598290323", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Facebook_svg_5282541.png", "alt", ""], [1, "social-media"], ["href", "https://www.instagram.com/votesmithermanmartinez/", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Instagram_svg_5282544.png", "alt", ""], ["href", "https://twitter.com/SmitherMartinez", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Twitter5_svg_5282551.png", "alt", ""], ["href", " https://linktr.ee/SmitherMartinez", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/185087_link_icon.png", "alt", ""]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 14, vars: 0, consts: [[1, "container"], [1, "row", "justify-content-md-center"], [1, "social-media", "ml-5"], ["href", "https://www.facebook.com/Gable-Allgood-2021-111333557660106", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Facebook_svg_5282541.png", "alt", ""], [1, "social-media"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/icons8-tiktok-512.png", "alt", ""], ["href", "https://instagram.com/gableallgood2021?igshid=3iad8ha2zfvg", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Instagram_svg_5282544.png", "alt", ""], ["href", "https://twitter.com/gableallgood?s=21", "target", "_blank", "rel", "noopener noreferrer"], ["height", "50px", "width", "50px", "src", "../../assets/Social Media/iconfinder_Rounded_Twitter5_svg_5282551.png", "alt", ""]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
@@ -1506,24 +1225,22 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "a", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "img", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](11, "img", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "a", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](14, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](13, "img", 10);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["footer[_ngcontent-%COMP%]{\r\n    background-color: #26517C;\r\n    margin-top: 10px;\r\n    height: 100%;\r\n    width: 100%;\r\n\r\n}\r\n\r\nimg[_ngcontent-%COMP%]{\r\n    margin-top: 1.1rem;\r\n    margin-bottom: 1.1rem;\r\n    margin-right: 1.1rem;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0kseUJBQXlCO0lBQ3pCLGdCQUFnQjtJQUNoQixZQUFZO0lBQ1osV0FBVzs7QUFFZjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsb0JBQW9CO0FBQ3hCIiwiZmlsZSI6ImZvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZm9vdGVye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzI2NTE3QztcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuXHJcbn1cclxuXHJcbmltZ3tcclxuICAgIG1hcmdpbi10b3A6IDEuMXJlbTtcclxuICAgIG1hcmdpbi1ib3R0b206IDEuMXJlbTtcclxuICAgIG1hcmdpbi1yaWdodDogMS4xcmVtO1xyXG59XHJcbiJdfQ== */"] });
+    } }, styles: ["footer[_ngcontent-%COMP%]{\r\n    background-color: #bb0f55;\r\n    margin-top: 10px;\r\n    height: 100%;\r\n    width: 100%;\r\n    \r\n}\r\n\r\nimg[_ngcontent-%COMP%]{\r\n    margin-top: 1.1rem;\r\n    margin-bottom: 1.1rem;\r\n    margin-right: 1.1rem;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZvb3Rlci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0kseUJBQXlCO0lBQ3pCLGdCQUFnQjtJQUNoQixZQUFZO0lBQ1osV0FBVzs7QUFFZjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsb0JBQW9CO0FBQ3hCIiwiZmlsZSI6ImZvb3Rlci5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiZm9vdGVye1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2JiMGY1NTtcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIFxyXG59XHJcblxyXG5pbWd7XHJcbiAgICBtYXJnaW4tdG9wOiAxLjFyZW07XHJcbiAgICBtYXJnaW4tYm90dG9tOiAxLjFyZW07XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDEuMXJlbTtcclxufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](FooterComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1576,38 +1293,38 @@ PlatformComponent.ɵfac = function PlatformComponent_Factory(t) { return new (t 
 PlatformComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PlatformComponent, selectors: [["app-platform"]], decls: 16, vars: 12, consts: [[3, "description", "lastPlat"], [1, "text-center", "p-3"], [3, "platforms", "specialCase"]], template: function PlatformComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "platform-icons", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "H2", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "UC Infrastructure Plan");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Campus Experience");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "platform-list", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "H2", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Equity and Inclusion");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Action");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "platform-list", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "H2", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Community Engagement");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Sustainability");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "platform-list", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "H2", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Student Government Reforms");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Varsity");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](12, "platform-list", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "H2", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Commitments");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Your Campus, Your Voice");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "platform-list", 2);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("description", false)("lastPlat", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.campusExp)("specialCase", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.campusExp)("specialCase", false);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.action)("specialCase", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.action)("specialCase", false);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.sustainability)("specialCase", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.sustainability)("specialCase", false);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.varsity)("specialCase", true);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.varsity)("specialCase", false);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("platforms", ctx.yourcampus)("specialCase", true);
-    } }, directives: [_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_2__["PlatformIconsComponent"], _platform_list_component__WEBPACK_IMPORTED_MODULE_3__["PlatformListComponent"]], styles: [".platform-icons[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.box1[_ngcontent-%COMP%]{\r\n    flex-basis: 20%;\r\n    \r\n    border-width: 2px;\r\n    text-align: center;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBsYXRmb3JtLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksZUFBZTtJQUNmO2dDQUM0QjtJQUM1QixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUdBO0lBQ0kscUNBQXFDO0lBQ3JDLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJwbGF0Zm9ybS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBsYXRmb3JtLWljb25ze1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG5cclxuLmJveDF7XHJcbiAgICBmbGV4LWJhc2lzOiAyMCU7XHJcbiAgICAvKiBiYWNrZ3JvdW5kLWNvbG9yOiBjb3Juc2lsaztcclxuICAgIGJvcmRlcjogMnB4IGNyaW1zb24gc29saWQ7ICovXHJcbiAgICBib3JkZXItd2lkdGg6IDJweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuXHJcbkgye1xyXG4gICAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0Jywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbn1cclxuIl19 */"] });
+    } }, directives: [_platform_icons_platform_icons_component__WEBPACK_IMPORTED_MODULE_2__["PlatformIconsComponent"], _platform_list_component__WEBPACK_IMPORTED_MODULE_3__["PlatformListComponent"]], styles: [".platform-icons[_ngcontent-%COMP%]{\r\n    display: flex;\r\n    justify-content: space-evenly;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n}\r\n\r\n.box1[_ngcontent-%COMP%]{\r\n    flex-basis: 20%;\r\n    \r\n    border-width: 2px;\r\n    text-align: center;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBsYXRmb3JtLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsNkJBQTZCO0lBQzdCLG1CQUFtQjtJQUNuQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksZUFBZTtJQUNmO2dDQUM0QjtJQUM1QixpQkFBaUI7SUFDakIsa0JBQWtCO0FBQ3RCOztBQUdBO0lBQ0ksaUNBQWlDO0lBQ2pDLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJwbGF0Zm9ybS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnBsYXRmb3JtLWljb25ze1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtZXZlbmx5O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxufVxyXG5cclxuLmJveDF7XHJcbiAgICBmbGV4LWJhc2lzOiAyMCU7XHJcbiAgICAvKiBiYWNrZ3JvdW5kLWNvbG9yOiBjb3Juc2lsaztcclxuICAgIGJvcmRlcjogMnB4IGNyaW1zb24gc29saWQ7ICovXHJcbiAgICBib3JkZXItd2lkdGg6IDJweDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuXHJcbkgye1xyXG4gICAgZm9udC1mYW1pbHk6ICdPc3dhbGQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PlatformComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1670,7 +1387,7 @@ TeamComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "h2", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "Meet the team behind ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "#IsaacYulia");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "#TogetherWeWill");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 1);
@@ -1680,7 +1397,7 @@ TeamComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](6, 1, ctx.members));
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgClass"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["AsyncPipe"]], styles: ["p[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n    text-align: center;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%]{\r\n    color: #26517C\r\n}\r\n\r\n.card[_ngcontent-%COMP%]{\r\n    box-shadow: 5px 5px 3px grey;\r\n}\r\n\r\n.yellow[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_bb0f55.png') 30 round;\r\n}\r\n\r\n.lcherry[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_ffd151.png') 30 round;\r\n}\r\n\r\n.dcherry[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_591937.png') 30 round;\r\n}\r\n\r\n.cherry[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_8e2857.png') 30 round;\r\n}\r\n\r\n\r\n\r\np[_ngcontent-%COMP%]{\r\n    font-size: 18px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlYW0uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHFDQUFxQztJQUNyQyxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHFDQUFxQztJQUNyQyxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJO0FBQ0o7O0FBRUE7SUFDSSw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBSWxCLCtDQUEwRTtBQUM5RTs7QUFFQTtJQUNJLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFJbEIsK0NBQTBFO0FBQzlFOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUlsQiwrQ0FBMEU7QUFDOUU7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBSWxCLCtDQUEwRTtBQUM5RTs7QUFFQTs7O0tBR0s7O0FBS0w7SUFDSSxlQUFlO0FBQ25CIiwiZmlsZSI6InRlYW0uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInB7XHJcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDMwMDtcclxuICAgIGZvbnQtc2l6ZTogMTFwdDtcclxufVxyXG5cclxuSDJ7XHJcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIGZvbnQtc2l6ZTogMjhwdDtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufVxyXG5cclxuSDIgPnNwYW57XHJcbiAgICBjb2xvcjogIzI2NTE3Q1xyXG59XHJcblxyXG4uY2FyZHtcclxuICAgIGJveC1zaGFkb3c6IDVweCA1cHggM3B4IGdyZXk7XHJcbn1cclxuXHJcbi55ZWxsb3d7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLXdpZHRoOiAxNXB4O1xyXG4gICAgLW1vei1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl9iYjBmNTUucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgLXdlYmtpdC1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl9iYjBmNTUucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgLW8tYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfYmIwZjU1LnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIGJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyX2JiMGY1NS5wbmdcIikgMzAgcm91bmQ7XHJcbn1cclxuXHJcbi5sY2hlcnJ5e1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIGJvcmRlci13aWR0aDogMTVweDtcclxuICAgIC1tb3otYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfZmZkMTUxLnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIC13ZWJraXQtYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfZmZkMTUxLnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIC1vLWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyX2ZmZDE1MS5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICBib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl9mZmQxNTEucG5nXCIpIDMwIHJvdW5kO1xyXG59XHJcblxyXG4uZGNoZXJyeXtcclxuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICBib3JkZXItd2lkdGg6IDE1cHg7XHJcbiAgICAtbW96LWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyXzU5MTkzNy5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICAtd2Via2l0LWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyXzU5MTkzNy5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICAtby1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl81OTE5MzcucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfNTkxOTM3LnBuZ1wiKSAzMCByb3VuZDtcclxufVxyXG5cclxuLmNoZXJyeXtcclxuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICBib3JkZXItd2lkdGg6IDE1cHg7XHJcbiAgICAtbW96LWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyXzhlMjg1Ny5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICAtd2Via2l0LWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyXzhlMjg1Ny5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICAtby1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl84ZTI4NTcucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfOGUyODU3LnBuZ1wiKSAzMCByb3VuZDtcclxufVxyXG5cclxuLyogaW1ne1xyXG4gICAgYm9yZGVyOiAxNnB4IHNvbGlkIHRyYW5zcGFyZW50O1xyXG4gICAgYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfYmIwZjU1LnBuZ1wiKSAzMCByb3VuZDtcclxufSAgICovXHJcblxyXG5cclxuXHJcblxyXG5we1xyXG4gICAgZm9udC1zaXplOiAxOHB4O1xyXG59XHJcbiJdfQ== */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgClass"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["AsyncPipe"]], styles: ["p[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n    font-size: 28pt;\r\n    text-align: center;\r\n}\r\n\r\nH2[_ngcontent-%COMP%]    > span[_ngcontent-%COMP%]{\r\n    color: #bb0f55\r\n}\r\n\r\n.card[_ngcontent-%COMP%]{\r\n    box-shadow: 5px 5px 3px grey;\r\n}\r\n\r\n.yellow[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_bb0f55.png') 30 round;\r\n}\r\n\r\n.lcherry[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_ffd151.png') 30 round;\r\n}\r\n\r\n.dcherry[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_591937.png') 30 round;\r\n}\r\n\r\n.cherry[_ngcontent-%COMP%]{\r\n    border-style: solid;\r\n    border-width: 15px;\r\n    border-image: url('border_8e2857.png') 30 round;\r\n}\r\n\r\n\r\n\r\np[_ngcontent-%COMP%]{\r\n    font-size: 18px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlYW0uY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlDQUFpQztJQUNqQyxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGlDQUFpQztJQUNqQyxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJO0FBQ0o7O0FBRUE7SUFDSSw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBSWxCLCtDQUEwRTtBQUM5RTs7QUFFQTtJQUNJLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFJbEIsK0NBQTBFO0FBQzlFOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLGtCQUFrQjtJQUlsQiwrQ0FBMEU7QUFDOUU7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsa0JBQWtCO0lBSWxCLCtDQUEwRTtBQUM5RTs7QUFFQTs7O0tBR0s7O0FBS0w7SUFDSSxlQUFlO0FBQ25CIiwiZmlsZSI6InRlYW0uY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInB7XHJcbiAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG4gICAgZm9udC1zaXplOiAxMXB0O1xyXG59XHJcblxyXG5IMntcclxuICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICBmb250LXNpemU6IDI4cHQ7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbkgyID5zcGFue1xyXG4gICAgY29sb3I6ICNiYjBmNTVcclxufVxyXG5cclxuLmNhcmR7XHJcbiAgICBib3gtc2hhZG93OiA1cHggNXB4IDNweCBncmV5O1xyXG59XHJcblxyXG4ueWVsbG93e1xyXG4gICAgYm9yZGVyLXN0eWxlOiBzb2xpZDtcclxuICAgIGJvcmRlci13aWR0aDogMTVweDtcclxuICAgIC1tb3otYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfYmIwZjU1LnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIC13ZWJraXQtYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfYmIwZjU1LnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIC1vLWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyX2JiMGY1NS5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICBib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl9iYjBmNTUucG5nXCIpIDMwIHJvdW5kO1xyXG59XHJcblxyXG4ubGNoZXJyeXtcclxuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XHJcbiAgICBib3JkZXItd2lkdGg6IDE1cHg7XHJcbiAgICAtbW96LWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyX2ZmZDE1MS5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICAtd2Via2l0LWJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyX2ZmZDE1MS5wbmdcIikgMzAgcm91bmQ7XHJcbiAgICAtby1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl9mZmQxNTEucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfZmZkMTUxLnBuZ1wiKSAzMCByb3VuZDtcclxufVxyXG5cclxuLmRjaGVycnl7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLXdpZHRoOiAxNXB4O1xyXG4gICAgLW1vei1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl81OTE5MzcucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgLXdlYmtpdC1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl81OTE5MzcucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgLW8tYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfNTkxOTM3LnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIGJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyXzU5MTkzNy5wbmdcIikgMzAgcm91bmQ7XHJcbn1cclxuXHJcbi5jaGVycnl7XHJcbiAgICBib3JkZXItc3R5bGU6IHNvbGlkO1xyXG4gICAgYm9yZGVyLXdpZHRoOiAxNXB4O1xyXG4gICAgLW1vei1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl84ZTI4NTcucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgLXdlYmtpdC1ib3JkZXItaW1hZ2U6IHVybChcIi4uLy4uL2Fzc2V0cy90ZWFtLXBpY3R1cmVzL2JvcmRlcl84ZTI4NTcucG5nXCIpIDMwIHJvdW5kO1xyXG4gICAgLW8tYm9yZGVyLWltYWdlOiB1cmwoXCIuLi8uLi9hc3NldHMvdGVhbS1waWN0dXJlcy9ib3JkZXJfOGUyODU3LnBuZ1wiKSAzMCByb3VuZDtcclxuICAgIGJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyXzhlMjg1Ny5wbmdcIikgMzAgcm91bmQ7XHJcbn1cclxuXHJcbi8qIGltZ3tcclxuICAgIGJvcmRlcjogMTZweCBzb2xpZCB0cmFuc3BhcmVudDtcclxuICAgIGJvcmRlci1pbWFnZTogdXJsKFwiLi4vLi4vYXNzZXRzL3RlYW0tcGljdHVyZXMvYm9yZGVyX2JiMGY1NS5wbmdcIikgMzAgcm91bmQ7XHJcbn0gICAqL1xyXG5cclxuXHJcblxyXG5cclxucHtcclxuICAgIGZvbnQtc2l6ZTogMThweDtcclxufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TeamComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -1948,7 +1665,7 @@ CollapsibleWellComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"]("", ctx.visible ? "-" : "+", " ", ctx.title, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.visible);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: ["p[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n}\r\n\r\nH3[_ngcontent-%COMP%]{\r\n    font-family: 'Montserrat', sans-serif;\r\n    font-weight: 600;\r\n    color: white;\r\n    cursor: pointer;\r\n    -webkit-user-select: none;\r\n            user-select: none;\r\n\r\n}\r\n\r\n.cherry[_ngcontent-%COMP%]{\r\n    background-color: #2072AA;\r\n}\r\n\r\n.yellowish[_ngcontent-%COMP%]{\r\n    background-color: #26517C;\r\n}\r\n\r\n.darkmaroon[_ngcontent-%COMP%]{\r\n    background-color: #2072AA;\r\n}\r\n\r\n.isthischerry[_ngcontent-%COMP%]{\r\n    background-color: #F2AE03;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbGxhcHNpYmxlLXdlbGwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHFDQUFxQztJQUNyQyxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLHFDQUFxQztJQUNyQyxnQkFBZ0I7SUFDaEIsWUFBWTtJQUNaLGVBQWU7SUFDZix5QkFBaUI7WUFBakIsaUJBQWlCOztBQUVyQjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLHlCQUF5QjtBQUM3QiIsImZpbGUiOiJjb2xsYXBzaWJsZS13ZWxsLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJwe1xyXG4gICAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0Jywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiAzMDA7XHJcbiAgICBmb250LXNpemU6IDExcHQ7XHJcbn1cclxuXHJcbkgze1xyXG4gICAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0Jywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICB1c2VyLXNlbGVjdDogbm9uZTtcclxuXHJcbn1cclxuXHJcbi5jaGVycnl7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjA3MkFBO1xyXG59XHJcblxyXG4ueWVsbG93aXNoe1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzI2NTE3QztcclxufVxyXG5cclxuLmRhcmttYXJvb257XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMjA3MkFBO1xyXG59XHJcblxyXG4uaXN0aGlzY2hlcnJ5e1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI0YyQUUwMztcclxufVxyXG4iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_1__["NgClass"], _angular_common__WEBPACK_IMPORTED_MODULE_1__["NgIf"]], styles: ["p[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 300;\r\n    font-size: 11pt;\r\n}\r\n\r\nH3[_ngcontent-%COMP%]{\r\n    font-family: 'Oswald', sans-serif;\r\n    font-weight: 600;\r\n    color: white;\r\n    cursor: pointer;\r\n    \r\n}\r\n\r\n.cherry[_ngcontent-%COMP%]{\r\n    background-color: #bb0f55;\r\n}\r\n\r\n.yellowish[_ngcontent-%COMP%]{\r\n    background-color: #ffd151;\r\n}\r\n\r\n.darkmaroon[_ngcontent-%COMP%]{\r\n    background-color: #591937;\r\n}\r\n\r\n.isthischerry[_ngcontent-%COMP%]{\r\n    background-color: #8e2857;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbGxhcHNpYmxlLXdlbGwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGlDQUFpQztJQUNqQyxnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGlDQUFpQztJQUNqQyxnQkFBZ0I7SUFDaEIsWUFBWTtJQUNaLGVBQWU7O0FBRW5COztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCIiwiZmlsZSI6ImNvbGxhcHNpYmxlLXdlbGwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbInB7XHJcbiAgICBmb250LWZhbWlseTogJ09zd2FsZCcsIHNhbnMtc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogMzAwO1xyXG4gICAgZm9udC1zaXplOiAxMXB0O1xyXG59XHJcblxyXG5IM3tcclxuICAgIGZvbnQtZmFtaWx5OiAnT3N3YWxkJywgc2Fucy1zZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICBcclxufVxyXG5cclxuLmNoZXJyeXtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICNiYjBmNTU7XHJcbn1cclxuXHJcbi55ZWxsb3dpc2h7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZkMTUxO1xyXG59XHJcblxyXG4uZGFya21hcm9vbntcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICM1OTE5Mzc7XHJcbn1cclxuXHJcbi5pc3RoaXNjaGVycnl7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjOGUyODU3O1xyXG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CollapsibleWellComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -2058,38 +1775,6 @@ PlatformListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵde
         }], specialCase: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }] }); })();
-
-
-/***/ }),
-
-/***/ "s+wa":
-/*!*************************************!*\
-  !*** ./src/app/route-animations.ts ***!
-  \*************************************/
-/*! exports provided: fader */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fader", function() { return fader; });
-/* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/animations */ "R0Ic");
-
-const fader = Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["trigger"])('routeAnimations', [
-    Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["transition"])('* <=> *', [
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter,:leave', [
-            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({
-                position: 'absolute',
-                left: 0,
-                width: '100%',
-                opacity: 0,
-                transform: 'scale(0) translateY(100%)'
-            })
-        ], { optional: true }),
-        Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["query"])(':enter', [
-            Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["animate"])('600ms ease', Object(_angular_animations__WEBPACK_IMPORTED_MODULE_0__["style"])({ opacity: 1, transform: 'scale(1) translateY(0)' })),
-        ], { optional: true }),
-    ])
-]);
 
 
 /***/ }),
